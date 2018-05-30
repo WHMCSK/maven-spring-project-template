@@ -13,11 +13,20 @@ import org.springframework.context.annotation.Bean;
 
 import cn.bgenius.pconnect.model.*;
 
-
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer {
 
 	private static final Logger log = LoggerFactory.getLogger(Application.class);
+
+	// for spring cloud: begin
+//	@Bean
+//	public RouteLocator customRouteLocator(ThrottleWebFilterFactory throttle) {
+//		return Routes.locator().route("test").uri("http://httpbin.org:80")
+//				.predicate(host("**.abc.org").and(path("/image/png"))).addResponseHeader("X-TestHeader", "foobar").and()
+//				.route("test2").uri("http://httpbin.org:80").predicate(path("/image/webp"))
+//				.add(addResponseHeader("X-AnotherHeader", "baz")).and().build();
+//	}
+	// for spring cloud: end
 	
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
@@ -27,7 +36,7 @@ public class Application extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
-	
+
 	@Bean
 	public CommandLineRunner demo(CustomerRepository repository) {
 		return (args) -> {
@@ -47,13 +56,12 @@ public class Application extends SpringBootServletInitializer {
 			log.info("");
 
 			// fetch an individual customer by ID
-			repository.findById(1L)
-				.ifPresent(customer -> {
-					log.info("Customer found with findById(1L):");
-					log.info("--------------------------------");
-					log.info(customer.toString());
-					log.info("");
-				});
+			repository.findById(1L).ifPresent(customer -> {
+				log.info("Customer found with findById(1L):");
+				log.info("--------------------------------");
+				log.info(customer.toString());
+				log.info("");
+			});
 
 			// fetch customers by last name
 			log.info("Customer found with findByLastName('Bauer'):");
@@ -62,7 +70,7 @@ public class Application extends SpringBootServletInitializer {
 				log.info(bauer.toString());
 			});
 			// for (Customer bauer : repository.findByLastName("Bauer")) {
-			// 	log.info(bauer.toString());
+			// log.info(bauer.toString());
 			// }
 			log.info("");
 		};

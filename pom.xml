@@ -12,8 +12,8 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.2.RELEASE</version>
 	</parent>
-	
-<!-- 	<dependencyManagement>
+	<!-- for spring cloud :begin -->
+ 	<!-- <dependencyManagement>
 	    <dependencies>
 	        <dependency>
 	            <groupId>org.springframework.cloud</groupId>
@@ -24,8 +24,16 @@
 	        </dependency>
 	    </dependencies>
 	</dependencyManagement> -->
+	<!-- for spring cloud :end -->
 
 	<dependencies>
+	<!-- for spring cloud :begin -->
+		<!-- <dependency>
+		    <groupId>org.springframework.cloud</groupId>
+		    <artifactId>spring-cloud-starter-gateway</artifactId>
+		    <version>2.0.0.RC2</version>
+		</dependency> -->
+	<!-- for spring cloud :end -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
