@@ -7,13 +7,13 @@
 	<artifactId>PConnect</artifactId>
 	<version>0.0.3</version>
 	<packaging>war</packaging>
-	
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.2.RELEASE</version>
 	</parent>
-    
+
 	<!-- for spring cloud :begin -->
 	<!-- <dependencyManagement> <dependencies> <dependency> <groupId>org.springframework.cloud</groupId> 
 		<artifactId>spring-cloud-gateway</artifactId> <version>1.0.1.RELEASE</version> 
@@ -47,22 +47,22 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
-		
-		<!--  orientdb: begin -->
-		
+
+		<!-- orientdb: begin -->
+
 		<dependency>
-		    <groupId>com.orientechnologies</groupId>
-		    <artifactId>orientdb-core</artifactId>
-		    <version>3.0.1</version>
+			<groupId>com.orientechnologies</groupId>
+			<artifactId>orientdb-core</artifactId>
+			<version>3.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.orientechnologies</groupId>
 			<artifactId>orientdb-client</artifactId>
 			<version>3.0.1</version>
 		</dependency>
-		
-		<!--  orientdb: end -->
-		
+
+		<!-- orientdb: end -->
+
 		<dependency>
 			<groupId>com.jayway.jsonpath</groupId>
 			<artifactId>json-path</artifactId>
@@ -77,6 +77,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.0</version>
 		</dependency>
 	</dependencies>
 
