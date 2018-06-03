@@ -13,6 +13,13 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.2.RELEASE</version>
 	</parent>
+	
+	<properties>
+		<java.version>1.8</java.version>
+		<docker.image.prefix>ascode</docker.image.prefix>
+	</properties>
+	
+	
 
 	<!-- for spring cloud :begin -->
 	<!-- <dependencyManagement> <dependencies> <dependency> <groupId>org.springframework.cloud</groupId> 
@@ -62,6 +69,13 @@
 		</dependency>
 
 		<!-- orientdb: end -->
+		
+		<!-- amqp: bgein -->
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+        <!-- amqp: end -->
 
 		<dependency>
 			<groupId>com.jayway.jsonpath</groupId>
@@ -85,11 +99,6 @@
 			<version>4.0</version>
 		</dependency>
 	</dependencies>
-
-	<properties>
-		<java.version>1.8</java.version>
-		<docker.image.prefix>ascode</docker.image.prefix>
-	</properties>
 
 	<build>
 		<plugins>

@@ -44,9 +44,8 @@ public class TodoController {
 			
 			List<Todo> lp = new ArrayList<Todo>();
 			for (ODocument doc : db.browseClass("Todoes")) {
-				System.out.println(doc.field("name").toString());
 				Todo newTodo = new Todo();
-				newTodo.todo = doc.field("todo").toString();
+				newTodo.todo = doc.field("todo") == null? "" : doc.field("todo").toString();
 				newTodo.rid = doc.field("@rid") == null ? "": doc.field("@rid").toString();
 				newTodo.rid = doc.field("version") == null ? "": doc.field("version").toString();
 				lp.add(newTodo);
