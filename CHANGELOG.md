@@ -2,8 +2,11 @@ Changelog
 =========
 
 
-(unreleased)
-------------
+0.0.4 (2018-06-06)
+------------------
+- S. [金飞]
+- Maven成功执行了一次docker image的构建，将web项目打包好了之后构建成了本地image;将项目结构组织成了多module结构
+  ，并建立了子module之间相互调用的测试;加入了maven-enforcer-plugin进行依赖组件的强制检查管理. [金飞]
 - 加入了RabbitMQ的使用示例，做了ApplicationRunner和CommandLineRunner的测试示例，测试了使用@Orde
   r设置多个Runner的执行顺序. [金飞]
 - 试了试OrientDB的增删改查，做了Todo的api. [金飞]
