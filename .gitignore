@@ -1,5 +1,6 @@
 # Compiled output
 /target
+*/target
 
 # Compiled class file
 *.class
@@ -70,3 +71,4 @@ web/Thumbs.db
 
 # model change logs
 *.zip
+*/tmp/
