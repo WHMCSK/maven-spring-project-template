@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: jinfei
+Build-Jdk: 10.0.1
+Implementation-Title: p-connect-web
+Implementation-Version: 0.1.1
+Implementation-Vendor-Id: cn.bgenius
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/p-connect/p-connect-web
+Created-By: Maven Integration for Eclipse
+
