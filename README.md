@@ -4,9 +4,26 @@
 ## 参考资料
 Spring guides：https://spring.io/guides
 
-## 编译打包
-使用maven编译打包，打成war包，可以直接用java -jar PConnect*.war启动自服务运行，或者讲war包放在tomcat下运行都行，请使用tomcat9+.
+## 模型设计
 
+p-connect-model
+
+## 编译运行调试
+
+在项目根目录p-connect目录下面执行：
+
+```
+mvn install
+```
+访问:http://localhost:8080
+
+## 部署
+
+使用maven编译打包，将p-connect-web下生成的war包，可以直接用java -jar PConnect*.war启动自服务运行，放在tomcat下运行都行，请使用tomcat9+.
+
+## docker部署
+
+下回分解...
 
 ## 使用的技术参考
 
@@ -17,6 +34,9 @@ Spring guides：https://spring.io/guides
 * TinkerPop3
 * RabbitMQ
 
+## 项目管理工具
+
+org.apache.maven.plugins：maven-enforcer-plugin
 
 ## 关于如何连接OrientDB
 
