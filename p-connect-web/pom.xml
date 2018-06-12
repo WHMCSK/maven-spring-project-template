@@ -18,7 +18,25 @@
 		<docker.image.prefix>ascode</docker.image.prefix>
 	</properties>
 
+	<profiles>    <!--考虑到window 和linux环境 npm命令格式的问题，使用maven的profile实现动态指定命令 -->
+		<profile>
+			<id>window</id>
+			<properties>
+				<npm>npm.cmd</npm>
+			</properties>
 
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+
+		</profile>
+		<profile>
+			<id>linux</id>
+			<properties>
+				<npm>npm</npm>
+			</properties>
+		</profile>
+	</profiles>
 
 	<!-- for spring cloud :begin -->
 	<!-- <dependencyManagement> <dependencies> <dependency> <groupId>org.springframework.cloud</groupId> 
@@ -160,6 +178,44 @@
 						<JAR_FILE>target/${project.build.finalName}.war</JAR_FILE>
 					</buildArgs>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<executions>
+
+					<execution>
+						<id>exec-npm-install</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<executable>${npm}</executable>
+							<arguments>
+								<argument>install</argument>
+							</arguments>
+							<workingDirectory>${basedir}/web</workingDirectory>
+						</configuration>
+					</execution>
+
+					<execution>
+						<id>exec-npm-run-build</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<executable>${npm}</executable>
+							<arguments>
+								<argument>run</argument>
+								<argument>build</argument>
+							</arguments>
+							<workingDirectory>${basedir}/web</workingDirectory>
+						</configuration>
+					</execution>
+
+				</executions>
 			</plugin>
 		</plugins>
 	</build>

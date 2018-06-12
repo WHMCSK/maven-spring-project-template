@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_p1UK0GsPEeiCc8Vc4G0qcw" name="NewModel">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_RTF8wGsQEeiCc8Vc4G0qcw" name="NewModel" node="_U4cS0GsQEeiCc8Vc4G0qcw _VpTIAGsQEeiCc8Vc4G0qcw" group="_TzutgGsQEeiCc8Vc4G0qcw" partition="_TzutgGsQEeiCc8Vc4G0qcw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XDOvYGsQEeiCc8Vc4G0qcw" target="_VpTIAGsQEeiCc8Vc4G0qcw" source="_U4cS0GsQEeiCc8Vc4G0qcw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_XDRysGsQEeiCc8Vc4G0qcw" name="Initial1_To_OpaqueAction1_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_XDTn4GsQEeiCc8Vc4G0qcw" name="Initial1_To_OpaqueAction1_weight"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_TzutgGsQEeiCc8Vc4G0qcw" name="ActivityPartition1"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_U4cS0GsQEeiCc8Vc4G0qcw" name="Initial1" outgoing="_XDOvYGsQEeiCc8Vc4G0qcw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_VpTIAGsQEeiCc8Vc4G0qcw" name="OpaqueAction1" incoming="_XDOvYGsQEeiCc8Vc4G0qcw">
+      <body>// TODO body of OpaqueAction1</body>
+    </node>
+  </packagedElement>
+</uml:Model>

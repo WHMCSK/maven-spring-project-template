@@ -1,4 +1,4 @@
-package cn.bgenius.pconnect.runners;
+package cn.bgenius.pconnect.web.runners;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.annotation.Order;
@@ -10,12 +10,12 @@ import org.springframework.stereotype.Component;
 ///CommandLineRunner例子大体的思路是：编写一个class，然后实现CommandLineRunner接口，最后添加@Component注解
 ///ApplicationRunner例子大体的思路是：编写一个class，然后实现ApplicationRunner接口，最后添加@Component注解
 @Component
-@Order(3)
-public class CmdRunner3Test implements CommandLineRunner {
+@Order(1)
+public class CmdRunner1Test implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("<<<<<<<<<<<<这个是测试CmdRunner3Test接口>>>>>>>>>>>>>>");
+		System.out.println("<<<<<<<<<<<<这个是测试CmdRunner1Test接口>>>>>>>>>>>>>>");
 	}
 
 }

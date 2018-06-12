@@ -1,4 +1,4 @@
-package cn.bgenius.pconnect.dto;
+package cn.bgenius.pconnect.web.dto;
 
 public class Todo {
 	public String rid;

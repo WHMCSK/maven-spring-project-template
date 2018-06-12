@@ -1,4 +1,4 @@
-package cn.bgenius.pconnect.runners;
+package cn.bgenius.pconnect.web.runners;
 
 import java.util.concurrent.TimeUnit;
 
@@ -7,8 +7,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-import cn.bgenius.pconnect.Application;
-import cn.bgenius.pconnect.mq.RbtmqReceiver;
+import cn.bgenius.pconnect.web.Application;
+import cn.bgenius.pconnect.web.mq.RbtmqReceiver;
 
 ///CommandLineRunner和ApplicationRunner，他们的执行时机为容器启动完成的时候。
 ///共同点：其一执行时机都是在容器启动完成的时候进行执行；其二这两个接口中都有一个run()方法；

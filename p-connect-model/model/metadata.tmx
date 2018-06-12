@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:trufun="http://trufun" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_NU9uAGgVEeiL35XkdGQqtw" name="UML2 Model">
+  <eAnnotations xmi:id="_NXFN4GgVEeiL35XkdGQqtw" source="TaggedValues">
+    <details xmi:id="_NXFN4WgVEeiL35XkdGQqtw" key="ProjectType" value="UML2Project"/>
+    <details xmi:id="_VEcKgGorEeiNXo772aHGJQ" key="Diagrams" value="_dsW5MGpEEeiHeOzEjHJVcA,_Naj_sGgVEeiL35XkdGQqtw,_o47NYGpGEeiHeOzEjHJVcA,_4RTasGpIEeiHeOzEjHJVcA,_5g_PAGpKEeiHeOzEjHJVcA,_SyhvQGpMEeiHeOzEjHJVcA,_WGJXgGrNEeilmt0QOB8XNQ,"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_Naj_sWgVEeiL35XkdGQqtw" source="Diagrams"/>
+  <packageImport xmi:id="_NU9uAWgVEeiL35XkdGQqtw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_rzxf0GpEEeiHeOzEjHJVcA" name="DMetaModel">
+    <eAnnotations xmi:id="_-5iPwGpEEeiHeOzEjHJVcA" source="Diagrams"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_funAMGrFEeilmt0QOB8XNQ" name="v1">
+      <eAnnotations xmi:id="_oFz7sGrFEeilmt0QOB8XNQ" source="Diagrams">
+        <contents xmi:type="trufun:TClassDiagram" xmi:id="_Naj_smgVEeiL35XkdGQqtw" id="_Naj_sGgVEeiL35XkdGQqtw" owner="_funAMGrFEeilmt0QOB8XNQ" name="数元结构" zoom="1.0" gridSpacing="22,22">
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_UchO4GorEeiNXo772aHGJQ" owner="_Ub0EQGorEeiNXo772aHGJQ" name="数元" outgoingConnections="_2ckZkGo7EeiNXo772aHGJQ _qAp2AGo8EeiHeOzEjHJVcA _rpomAGo8EeiHeOzEjHJVcA _sLG7YGo8EeiHeOzEjHJVcA" location="59,75" size="176,135" autoResize="true">
+            <fillColor xmi:id="_UchO4WorEeiNXo772aHGJQ" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_UchO4morEeiNXo772aHGJQ"/>
+            <fontColor xmi:id="_UchO42orEeiNXo772aHGJQ"/>
+            <stereotypeNodes xmi:id="_UchO5GorEeiNXo772aHGJQ" id="_Ub0EQGorEeiNXo772aHGJQ"/>
+            <operationCompartmentNode xmi:id="_UchO5WorEeiNXo772aHGJQ"/>
+            <attributeCompartmentNode xmi:id="_UchO5morEeiNXo772aHGJQ">
+              <attributes xmi:id="_PiHpEGo5EeiNXo772aHGJQ" owner="_PiAUUGo5EeiNXo772aHGJQ" name="datas : Object[]"/>
+              <attributes xmi:id="_QgmDgGo5EeiNXo772aHGJQ" owner="_QglccGo5EeiNXo772aHGJQ" name="enums : enum[]"/>
+              <attributes xmi:id="_RSrnwGo5EeiNXo772aHGJQ" owner="_RSrAsGo5EeiNXo772aHGJQ" name="attachments : attachment[]"/>
+              <attributes xmi:id="_SF6bgGo5EeiNXo772aHGJQ" owner="_SF50cGo5EeiNXo772aHGJQ" name="meta_data : meta_data"/>
+              <attributes xmi:id="_TGDp4Go5EeiNXo772aHGJQ" owner="_TGDC0Go5EeiNXo772aHGJQ" name="query_schema"/>
+              <attributes xmi:id="_T1aqQGo5EeiNXo772aHGJQ" owner="_T1aDMGo5EeiNXo772aHGJQ" name="query_schema_result_data"/>
+            </attributeCompartmentNode>
+            <nestedClassifierCompartmentNode xmi:id="_UchO52orEeiNXo772aHGJQ"/>
+            <templateParameterCompartmentNode xmi:id="_UchO6GorEeiNXo772aHGJQ"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_0ZFw0Go5EeiNXo772aHGJQ" owner="_0Y3HUGo5EeiNXo772aHGJQ" name="Object" incomingConnections="_2ckZkGo7EeiNXo772aHGJQ" location="109,16" size="69,28" autoResize="true">
+            <fillColor xmi:id="_0ZFw0Wo5EeiNXo772aHGJQ" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_0ZFw0mo5EeiNXo772aHGJQ"/>
+            <fontColor xmi:id="_0ZFw02o5EeiNXo772aHGJQ"/>
+            <stereotypeNodes xmi:id="_0ZFw1Go5EeiNXo772aHGJQ" id="_0Y3HUGo5EeiNXo772aHGJQ"/>
+            <operationCompartmentNode xmi:id="_0ZFw1Wo5EeiNXo772aHGJQ"/>
+            <attributeCompartmentNode xmi:id="_0ZFw1mo5EeiNXo772aHGJQ"/>
+            <nestedClassifierCompartmentNode xmi:id="_0ZFw12o5EeiNXo772aHGJQ"/>
+            <templateParameterCompartmentNode xmi:id="_0ZFw2Go5EeiNXo772aHGJQ"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_Em-UsGo6EeiNXo772aHGJQ" owner="_Em74cGo6EeiNXo772aHGJQ" name="enum" incomingConnections="_qAp2AGo8EeiHeOzEjHJVcA" outgoingConnections="_txsesGo8EeiHeOzEjHJVcA" location="268,13" size="140,87" autoResize="true">
+            <fillColor xmi:id="_Em-UsWo6EeiNXo772aHGJQ" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_Em-Usmo6EeiNXo772aHGJQ"/>
+            <fontColor xmi:id="_Em-Us2o6EeiNXo772aHGJQ"/>
+            <stereotypeNodes xmi:id="_Em-UtGo6EeiNXo772aHGJQ" id="_Em74cGo6EeiNXo772aHGJQ"/>
+            <operationCompartmentNode xmi:id="_Em-UtWo6EeiNXo772aHGJQ"/>
+            <attributeCompartmentNode xmi:id="_Em-Utmo6EeiNXo772aHGJQ">
+              <attributes xmi:id="_Jy0ugGo6EeiNXo772aHGJQ" owner="_Jy0HcGo6EeiNXo772aHGJQ" name="name : String"/>
+              <attributes xmi:id="_Lh8iwGo6EeiNXo772aHGJQ" owner="_Lh77sGo6EeiNXo772aHGJQ" name="order_type : String"/>
+              <attributes xmi:id="_MdHKgGo6EeiNXo772aHGJQ" owner="_MdGjcGo6EeiNXo772aHGJQ" name="enumlist : enum_item[]"/>
+            </attributeCompartmentNode>
+            <nestedClassifierCompartmentNode xmi:id="_Em-Ut2o6EeiNXo772aHGJQ"/>
+            <templateParameterCompartmentNode xmi:id="_Em-UuGo6EeiNXo772aHGJQ"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_FnR7IGo6EeiNXo772aHGJQ" owner="_FnQF8Go6EeiNXo772aHGJQ" name="meta_data" incomingConnections="_sLG7YGo8EeiHeOzEjHJVcA" outgoingConnections="_il50UWo_EeiHeOzEjHJVcA _l9I14Go_EeiHeOzEjHJVcA _qIdm1Wo_EeiHeOzEjHJVcA _tyx8cGo_EeiHeOzEjHJVcA _w1mNMGo_EeiHeOzEjHJVcA _yvuXk2o_EeiHeOzEjHJVcA _2EALwGo_EeiHeOzEjHJVcA _Aw-Ew2pAEeiHeOzEjHJVcA" location="146,255" size="203,183" autoResize="true">
+            <fillColor xmi:id="_FnR7IWo6EeiNXo772aHGJQ" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_FnR7Imo6EeiNXo772aHGJQ"/>
+            <fontColor xmi:id="_FnR7I2o6EeiNXo772aHGJQ"/>
+            <stereotypeNodes xmi:id="_FnR7JGo6EeiNXo772aHGJQ" id="_FnQF8Go6EeiNXo772aHGJQ"/>
+            <operationCompartmentNode xmi:id="_FnR7JWo6EeiNXo772aHGJQ"/>
+            <attributeCompartmentNode xmi:id="_FnR7Jmo6EeiNXo772aHGJQ">
+              <attributes xmi:id="_czP2AGo7EeiNXo772aHGJQ" owner="_czPO8Go7EeiNXo772aHGJQ" name="entity : entity"/>
+              <attributes xmi:id="_dnbsAGo7EeiNXo772aHGJQ" owner="_dnbE8Go7EeiNXo772aHGJQ" name="data_ref : data_ref"/>
+              <attributes xmi:id="_eVDnAGo7EeiNXo772aHGJQ" owner="_eVC_8Go7EeiNXo772aHGJQ" name="self_include_ref : self_include_ref"/>
+              <attributes xmi:id="_fCzd0Go7EeiNXo772aHGJQ" owner="_fCy2wGo7EeiNXo772aHGJQ" name="main_data_group : main_data_group"/>
+              <attributes xmi:id="_fuyaEGo7EeiNXo772aHGJQ" owner="_fuxzAGo7EeiNXo772aHGJQ" name="in_data_flow : in_data_flow"/>
+              <attributes xmi:id="_giSTkGo7EeiNXo772aHGJQ" owner="_giRsgGo7EeiNXo772aHGJQ" name="interactive : interactive"/>
+              <attributes xmi:id="_hUIAMWo7EeiNXo772aHGJQ" owner="_hUIAMGo7EeiNXo772aHGJQ" name="standard_frm_ui : standard_frm_ui"/>
+              <attributes xmi:id="_iHJ_oGo7EeiNXo772aHGJQ" owner="_iHJYkGo7EeiNXo772aHGJQ" name="column_metadata : column_metadata"/>
+              <attributes xmi:id="_i7-HwGo7EeiNXo772aHGJQ" owner="_i79gsGo7EeiNXo772aHGJQ" name="func_metadata : func_metadata"/>
+            </attributeCompartmentNode>
+            <nestedClassifierCompartmentNode xmi:id="_FnR7J2o6EeiNXo772aHGJQ"/>
+            <templateParameterCompartmentNode xmi:id="_FnR7KGo6EeiNXo772aHGJQ"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_OTv8AGo6EeiNXo772aHGJQ" owner="_OTuG0Go6EeiNXo772aHGJQ" name="enum_item" incomingConnections="_txsesGo8EeiHeOzEjHJVcA" location="462,6" size="133,87" autoResize="true">
+            <fillColor xmi:id="_OTv8AWo6EeiNXo772aHGJQ" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_OTv8Amo6EeiNXo772aHGJQ"/>
+            <fontColor xmi:id="_OTv8A2o6EeiNXo772aHGJQ"/>
+            <stereotypeNodes xmi:id="_OTv8BGo6EeiNXo772aHGJQ" id="_OTuG0Go6EeiNXo772aHGJQ"/>
+            <operationCompartmentNode xmi:id="_OTv8BWo6EeiNXo772aHGJQ"/>
+            <attributeCompartmentNode xmi:id="_OTv8Bmo6EeiNXo772aHGJQ">
+              <attributes xmi:id="_T8AlAGo6EeiNXo772aHGJQ" owner="_T7_98Go6EeiNXo772aHGJQ" name="text : String"/>
+              <attributes xmi:id="_U46SIGo6EeiNXo772aHGJQ" owner="_U45rEGo6EeiNXo772aHGJQ" name="value : String"/>
+              <attributes xmi:id="_VsGCkWo6EeiNXo772aHGJQ" owner="_VsGCkGo6EeiNXo772aHGJQ" name="order_column : String"/>
+            </attributeCompartmentNode>
+            <nestedClassifierCompartmentNode xmi:id="_OTv8B2o6EeiNXo772aHGJQ"/>
+            <templateParameterCompartmentNode xmi:id="_OTv8CGo6EeiNXo772aHGJQ"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_Elss4Go7EeiNXo772aHGJQ" owner="_EliU0Go7EeiNXo772aHGJQ" name="attachment" incomingConnections="_rpomAGo8EeiHeOzEjHJVcA" location="464,105" size="155,167" autoResize="true">
+            <fillColor xmi:id="_Elss4Wo7EeiNXo772aHGJQ" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_Elss4mo7EeiNXo772aHGJQ"/>
+            <fontColor xmi:id="_Elss42o7EeiNXo772aHGJQ"/>
+            <stereotypeNodes xmi:id="_Elss5Go7EeiNXo772aHGJQ" id="_EliU0Go7EeiNXo772aHGJQ"/>
+            <operationCompartmentNode xmi:id="_Elss5Wo7EeiNXo772aHGJQ"/>
+            <attributeCompartmentNode xmi:id="_Elss5mo7EeiNXo772aHGJQ">
+              <attributes xmi:id="_IW0OEWo7EeiNXo772aHGJQ" owner="_IW0OEGo7EeiNXo772aHGJQ" name="data_name : String"/>
+              <attributes xmi:id="_JIN10Go7EeiNXo772aHGJQ" owner="_JINOwGo7EeiNXo772aHGJQ" name="data_uniqueid : String"/>
+              <attributes xmi:id="_J0-OIWo7EeiNXo772aHGJQ" owner="_J0-OIGo7EeiNXo772aHGJQ" name="file_path_url : String"/>
+              <attributes xmi:id="_KheHwWo7EeiNXo772aHGJQ" owner="_KheHwGo7EeiNXo772aHGJQ" name="file_type : String"/>
+              <attributes xmi:id="_LNncEWo7EeiNXo772aHGJQ" owner="_LNncEGo7EeiNXo772aHGJQ" name="file_name : String"/>
+              <attributes xmi:id="_MDgiQGo7EeiNXo772aHGJQ" owner="_MDf7MGo7EeiNXo772aHGJQ" name="icon : String"/>
+              <attributes xmi:id="_Mvtg8Wo7EeiNXo772aHGJQ" owner="_Mvtg8Go7EeiNXo772aHGJQ" name="upload_time : Date"/>
+              <attributes xmi:id="_Ne6JQGo7EeiNXo772aHGJQ" owner="_Ne5iMGo7EeiNXo772aHGJQ" name="upload_user_name : String"/>
+            </attributeCompartmentNode>
+            <nestedClassifierCompartmentNode xmi:id="_Elss52o7EeiNXo772aHGJQ"/>
+            <templateParameterCompartmentNode xmi:id="_Elss6Go7EeiNXo772aHGJQ"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_2doJgGo7EeiNXo772aHGJQ" name="*" location="141,40" size="21,27" parent="_2ckZkGo7EeiNXo772aHGJQ" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_2doJgWo7EeiNXo772aHGJQ"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_2dqlwGo7EeiNXo772aHGJQ" name="1" location="141,48" size="23,27" parent="_2ckZkGo7EeiNXo772aHGJQ" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_2dqlwWo7EeiNXo772aHGJQ"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_qBarAGo8EeiHeOzEjHJVcA" name="*" location="247,58" size="21,27" parent="_qAp2AGo8EeiHeOzEjHJVcA" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_qBarAWo8EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_qBb5IGo8EeiHeOzEjHJVcA" name="1" location="231,58" size="23,27" parent="_qAp2AGo8EeiHeOzEjHJVcA" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_qBb5IWo8EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_rp8IAGo8EeiHeOzEjHJVcA" name="*" location="443,128" size="21,27" parent="_rpomAGo8EeiHeOzEjHJVcA" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_rp8IAWo8EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_rp9WIGo8EeiHeOzEjHJVcA" name="1" location="231,128" size="23,27" parent="_rpomAGo8EeiHeOzEjHJVcA" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_rp9WIWo8EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_sMCIcGo8EeiHeOzEjHJVcA" name="1" location="188,228" size="23,27" parent="_sLG7YGo8EeiHeOzEjHJVcA" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_sMCIcWo8EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_sMCvgGo8EeiHeOzEjHJVcA" name="1" location="188,206" size="23,27" parent="_sLG7YGo8EeiHeOzEjHJVcA" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_sMCvgWo8EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_tyM1AGo8EeiHeOzEjHJVcA" name="1" location="439,24" size="23,27" parent="_txsesGo8EeiHeOzEjHJVcA" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_tyM1AWo8EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_tyP4UGo8EeiHeOzEjHJVcA" name="1" location="404,24" size="23,27" parent="_txsesGo8EeiHeOzEjHJVcA" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_tyP4UWo8EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_as6e0Go_EeiHeOzEjHJVcA" owner="_asj5gGo_EeiHeOzEjHJVcA" name="entity" incomingConnections="_il50UWo_EeiHeOzEjHJVcA" location="623,290" size="65,28" autoResize="true">
+            <fillColor xmi:id="_as6e0Wo_EeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_as6e0mo_EeiHeOzEjHJVcA"/>
+            <fontColor xmi:id="_as6e02o_EeiHeOzEjHJVcA"/>
+            <stereotypeNodes xmi:id="_as6e1Go_EeiHeOzEjHJVcA" id="_asj5gGo_EeiHeOzEjHJVcA"/>
+            <operationCompartmentNode xmi:id="_as6e1Wo_EeiHeOzEjHJVcA"/>
+            <attributeCompartmentNode xmi:id="_as6e1mo_EeiHeOzEjHJVcA"/>
+            <nestedClassifierCompartmentNode xmi:id="_as6e12o_EeiHeOzEjHJVcA"/>
+            <templateParameterCompartmentNode xmi:id="_as6e2Go_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_imRAsGo_EeiHeOzEjHJVcA" name="1" location="600,275" size="23,27" parent="_il50UWo_EeiHeOzEjHJVcA" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_imRAsWo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_imRnwGo_EeiHeOzEjHJVcA" name="1" location="345,275" size="23,27" parent="_il50UWo_EeiHeOzEjHJVcA" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_imRnwWo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_k6nB4Go_EeiHeOzEjHJVcA" owner="_k6kloGo_EeiHeOzEjHJVcA" name="data_ref" incomingConnections="_l9I14Go_EeiHeOzEjHJVcA" location="663,372" size="75,28" autoResize="true">
+            <fillColor xmi:id="_k6nB4Wo_EeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_k6nB4mo_EeiHeOzEjHJVcA"/>
+            <fontColor xmi:id="_k6nB42o_EeiHeOzEjHJVcA"/>
+            <stereotypeNodes xmi:id="_k6nB5Go_EeiHeOzEjHJVcA" id="_k6kloGo_EeiHeOzEjHJVcA"/>
+            <operationCompartmentNode xmi:id="_k6nB5Wo_EeiHeOzEjHJVcA"/>
+            <attributeCompartmentNode xmi:id="_k6nB5mo_EeiHeOzEjHJVcA"/>
+            <nestedClassifierCompartmentNode xmi:id="_k6nB52o_EeiHeOzEjHJVcA"/>
+            <templateParameterCompartmentNode xmi:id="_k6nB6Go_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_l9hQYGo_EeiHeOzEjHJVcA" name="1" location="640,357" size="23,27" parent="_l9I14Go_EeiHeOzEjHJVcA" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_l9hQYWo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_l9h3cGo_EeiHeOzEjHJVcA" name="1" location="345,357" size="23,27" parent="_l9I14Go_EeiHeOzEjHJVcA" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_l9h3cWo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_oDEnoGo_EeiHeOzEjHJVcA" owner="_oDDZgGo_EeiHeOzEjHJVcA" name="self_include_ref" incomingConnections="_qIdm1Wo_EeiHeOzEjHJVcA" location="31,631" size="108,28" autoResize="true">
+            <fillColor xmi:id="_oDEnoWo_EeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_oDEnomo_EeiHeOzEjHJVcA"/>
+            <fontColor xmi:id="_oDEno2o_EeiHeOzEjHJVcA"/>
+            <stereotypeNodes xmi:id="_oDEnpGo_EeiHeOzEjHJVcA" id="_oDDZgGo_EeiHeOzEjHJVcA"/>
+            <operationCompartmentNode xmi:id="_oDEnpWo_EeiHeOzEjHJVcA"/>
+            <attributeCompartmentNode xmi:id="_oDEnpmo_EeiHeOzEjHJVcA"/>
+            <nestedClassifierCompartmentNode xmi:id="_oDEnp2o_EeiHeOzEjHJVcA"/>
+            <templateParameterCompartmentNode xmi:id="_oDEnqGo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_qIzlEGo_EeiHeOzEjHJVcA" name="1" location="92,603" size="23,27" parent="_qIdm1Wo_EeiHeOzEjHJVcA" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_qIzlEWo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_qI0MIGo_EeiHeOzEjHJVcA" name="1" location="197,438" size="23,27" parent="_qIdm1Wo_EeiHeOzEjHJVcA" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_qI0MIWo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_sIe90Go_EeiHeOzEjHJVcA" owner="_sIdIoGo_EeiHeOzEjHJVcA" name="main_data_group" incomingConnections="_tyx8cGo_EeiHeOzEjHJVcA" location="315,619" size="114,28" autoResize="true">
+            <fillColor xmi:id="_sIe90Wo_EeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_sIe90mo_EeiHeOzEjHJVcA"/>
+            <fontColor xmi:id="_sIe902o_EeiHeOzEjHJVcA"/>
+            <stereotypeNodes xmi:id="_sIe91Go_EeiHeOzEjHJVcA" id="_sIdIoGo_EeiHeOzEjHJVcA"/>
+            <operationCompartmentNode xmi:id="_sIe91Wo_EeiHeOzEjHJVcA"/>
+            <attributeCompartmentNode xmi:id="_sIe91mo_EeiHeOzEjHJVcA"/>
+            <nestedClassifierCompartmentNode xmi:id="_sIe912o_EeiHeOzEjHJVcA"/>
+            <templateParameterCompartmentNode xmi:id="_sIe92Go_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_tzIhwGo_EeiHeOzEjHJVcA" name="1" location="330,592" size="23,27" parent="_tyx8cGo_EeiHeOzEjHJVcA" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_tzIhwWo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_tzJv4Go_EeiHeOzEjHJVcA" name="1" location="330,434" size="23,27" parent="_tyx8cGo_EeiHeOzEjHJVcA" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_tzJv4Wo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_vNltkGo_EeiHeOzEjHJVcA" owner="_vNkfcGo_EeiHeOzEjHJVcA" name="in_data_flow" incomingConnections="_w1mNMGo_EeiHeOzEjHJVcA" location="679,458" size="93,28" autoResize="true">
+            <fillColor xmi:id="_vNltkWo_EeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_vNltkmo_EeiHeOzEjHJVcA"/>
+            <fontColor xmi:id="_vNltk2o_EeiHeOzEjHJVcA"/>
+            <stereotypeNodes xmi:id="_vNltlGo_EeiHeOzEjHJVcA" id="_vNkfcGo_EeiHeOzEjHJVcA"/>
+            <operationCompartmentNode xmi:id="_vNltlWo_EeiHeOzEjHJVcA"/>
+            <attributeCompartmentNode xmi:id="_vNltlmo_EeiHeOzEjHJVcA"/>
+            <nestedClassifierCompartmentNode xmi:id="_vNltl2o_EeiHeOzEjHJVcA"/>
+            <templateParameterCompartmentNode xmi:id="_vNltmGo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_w18LcGo_EeiHeOzEjHJVcA" name="1" location="655,432" size="23,27" parent="_w1mNMGo_EeiHeOzEjHJVcA" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_w18LcWo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_w18ygGo_EeiHeOzEjHJVcA" name="1" location="349,373" size="23,27" parent="_w1mNMGo_EeiHeOzEjHJVcA" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_w18ygWo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_x7_NgGo_EeiHeOzEjHJVcA" owner="_x79_YGo_EeiHeOzEjHJVcA" name="interactive" incomingConnections="_yvuXk2o_EeiHeOzEjHJVcA" location="494,614" size="86,28" autoResize="true">
+            <fillColor xmi:id="_x7_NgWo_EeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_x7_Ngmo_EeiHeOzEjHJVcA"/>
+            <fontColor xmi:id="_x7_Ng2o_EeiHeOzEjHJVcA"/>
+            <stereotypeNodes xmi:id="_x7_NhGo_EeiHeOzEjHJVcA" id="_x79_YGo_EeiHeOzEjHJVcA"/>
+            <operationCompartmentNode xmi:id="_x7_NhWo_EeiHeOzEjHJVcA"/>
+            <attributeCompartmentNode xmi:id="_x7_Nhmo_EeiHeOzEjHJVcA"/>
+            <nestedClassifierCompartmentNode xmi:id="_x7_Nh2o_EeiHeOzEjHJVcA"/>
+            <templateParameterCompartmentNode xmi:id="_x7_NiGo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_ywEV0Go_EeiHeOzEjHJVcA" name="1" location="522,586" size="23,27" parent="_yvuXk2o_EeiHeOzEjHJVcA" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_ywEV0Wo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_ywE84Go_EeiHeOzEjHJVcA" name="1" location="342,438" size="23,27" parent="_yvuXk2o_EeiHeOzEjHJVcA" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_ywE84Wo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_0XZgAGo_EeiHeOzEjHJVcA" owner="_0XXq0Go_EeiHeOzEjHJVcA" name="standard_frm_ui" incomingConnections="_2EALwGo_EeiHeOzEjHJVcA" location="689,564" size="109,28" autoResize="true">
+            <fillColor xmi:id="_0XZgAWo_EeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_0XZgAmo_EeiHeOzEjHJVcA"/>
+            <fontColor xmi:id="_0XZgA2o_EeiHeOzEjHJVcA"/>
+            <stereotypeNodes xmi:id="_0XZgBGo_EeiHeOzEjHJVcA" id="_0XXq0Go_EeiHeOzEjHJVcA"/>
+            <operationCompartmentNode xmi:id="_0XZgBWo_EeiHeOzEjHJVcA"/>
+            <attributeCompartmentNode xmi:id="_0XZgBmo_EeiHeOzEjHJVcA"/>
+            <nestedClassifierCompartmentNode xmi:id="_0XZgB2o_EeiHeOzEjHJVcA"/>
+            <templateParameterCompartmentNode xmi:id="_0XZgCGo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_2EZ0YGo_EeiHeOzEjHJVcA" name="1" location="712,536" size="23,27" parent="_2EALwGo_EeiHeOzEjHJVcA" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_2EZ0YWo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_2EbCgGo_EeiHeOzEjHJVcA" name="1" location="349,394" size="23,27" parent="_2EALwGo_EeiHeOzEjHJVcA" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_2EbCgWo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_9jYucGo_EeiHeOzEjHJVcA" owner="_9jXgUGo_EeiHeOzEjHJVcA" name="column_metadata" location="648,628" size="117,28" autoResize="true">
+            <fillColor xmi:id="_9jYucWo_EeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_9jYucmo_EeiHeOzEjHJVcA"/>
+            <fontColor xmi:id="_9jYuc2o_EeiHeOzEjHJVcA"/>
+            <stereotypeNodes xmi:id="_9jYudGo_EeiHeOzEjHJVcA" id="_9jXgUGo_EeiHeOzEjHJVcA"/>
+            <operationCompartmentNode xmi:id="_9jYudWo_EeiHeOzEjHJVcA"/>
+            <attributeCompartmentNode xmi:id="_9jYudmo_EeiHeOzEjHJVcA"/>
+            <nestedClassifierCompartmentNode xmi:id="_9jYud2o_EeiHeOzEjHJVcA"/>
+            <templateParameterCompartmentNode xmi:id="_9jYueGo_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:TClassNode" xmi:id="__WDl8Go_EeiHeOzEjHJVcA" owner="__WCX0Go_EeiHeOzEjHJVcA" name="func_metadata" incomingConnections="_Aw-Ew2pAEeiHeOzEjHJVcA" location="164,615" size="104,28" autoResize="true">
+            <fillColor xmi:id="__WDl8Wo_EeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+            <lineColor xmi:id="__WDl8mo_EeiHeOzEjHJVcA"/>
+            <fontColor xmi:id="__WDl82o_EeiHeOzEjHJVcA"/>
+            <stereotypeNodes xmi:id="__WDl9Go_EeiHeOzEjHJVcA" id="__WCX0Go_EeiHeOzEjHJVcA"/>
+            <operationCompartmentNode xmi:id="__WDl9Wo_EeiHeOzEjHJVcA"/>
+            <attributeCompartmentNode xmi:id="__WDl9mo_EeiHeOzEjHJVcA"/>
+            <nestedClassifierCompartmentNode xmi:id="__WDl92o_EeiHeOzEjHJVcA"/>
+            <templateParameterCompartmentNode xmi:id="__WDl-Go_EeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_AxV4MGpAEeiHeOzEjHJVcA" name="1" location="214,588" size="23,27" parent="_Aw-Ew2pAEeiHeOzEjHJVcA" alias="Client.Multiplicity" direction="12" offset="0,0">
+            <fontColor xmi:id="_AxV4MWpAEeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:SubLabel" xmi:id="_AxWfQGpAEeiHeOzEjHJVcA" name="1" location="214,434" size="23,27" parent="_Aw-Ew2pAEeiHeOzEjHJVcA" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+            <fontColor xmi:id="_AxWfQWpAEeiHeOzEjHJVcA"/>
+          </nodes>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_2ckZkGo7EeiNXo772aHGJQ" owner="_2ch9UGo7EeiNXo772aHGJQ" name="" subLabels="_2doJgGo7EeiNXo772aHGJQ _2dqlwGo7EeiNXo772aHGJQ" target="_0ZFw0Go5EeiNXo772aHGJQ" source="_UchO4GorEeiNXo772aHGJQ">
+            <fillColor xmi:id="_2ckZkWo7EeiNXo772aHGJQ"/>
+          </connections>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_qAp2AGo8EeiHeOzEjHJVcA" owner="_qAMjAGo8EeiHeOzEjHJVcA" name="" subLabels="_qBarAGo8EeiHeOzEjHJVcA _qBb5IGo8EeiHeOzEjHJVcA" target="_Em-UsGo6EeiNXo772aHGJQ" source="_UchO4GorEeiNXo772aHGJQ">
+            <fillColor xmi:id="_qAp2AWo8EeiHeOzEjHJVcA"/>
+          </connections>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_rpomAGo8EeiHeOzEjHJVcA" owner="_rpmw0Go8EeiHeOzEjHJVcA" name="" subLabels="_rp8IAGo8EeiHeOzEjHJVcA _rp9WIGo8EeiHeOzEjHJVcA" target="_Elss4Go7EeiNXo772aHGJQ" source="_UchO4GorEeiNXo772aHGJQ">
+            <fillColor xmi:id="_rpomAWo8EeiHeOzEjHJVcA"/>
+          </connections>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_sLG7YGo8EeiHeOzEjHJVcA" owner="_sLFGMGo8EeiHeOzEjHJVcA" name="" subLabels="_sMCIcGo8EeiHeOzEjHJVcA _sMCvgGo8EeiHeOzEjHJVcA" target="_FnR7IGo6EeiNXo772aHGJQ" source="_UchO4GorEeiNXo772aHGJQ">
+            <fillColor xmi:id="_sLG7YWo8EeiHeOzEjHJVcA"/>
+          </connections>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_txsesGo8EeiHeOzEjHJVcA" owner="_txrQkGo8EeiHeOzEjHJVcA" name="" subLabels="_tyM1AGo8EeiHeOzEjHJVcA _tyP4UGo8EeiHeOzEjHJVcA" target="_OTv8AGo6EeiNXo772aHGJQ" source="_Em-UsGo6EeiNXo772aHGJQ">
+            <fillColor xmi:id="_txsesWo8EeiHeOzEjHJVcA"/>
+          </connections>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_il50UWo_EeiHeOzEjHJVcA" owner="_il5NQGo_EeiHeOzEjHJVcA" name="" subLabels="_imRAsGo_EeiHeOzEjHJVcA _imRnwGo_EeiHeOzEjHJVcA" target="_as6e0Go_EeiHeOzEjHJVcA" source="_FnR7IGo6EeiNXo772aHGJQ">
+            <fillColor xmi:id="_il50Umo_EeiHeOzEjHJVcA"/>
+          </connections>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_l9I14Go_EeiHeOzEjHJVcA" owner="_l9HnwGo_EeiHeOzEjHJVcA" name="" subLabels="_l9hQYGo_EeiHeOzEjHJVcA _l9h3cGo_EeiHeOzEjHJVcA" target="_k6nB4Go_EeiHeOzEjHJVcA" source="_FnR7IGo6EeiNXo772aHGJQ">
+            <fillColor xmi:id="_l9I14Wo_EeiHeOzEjHJVcA"/>
+          </connections>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_qIdm1Wo_EeiHeOzEjHJVcA" owner="_qIc_wGo_EeiHeOzEjHJVcA" name="" subLabels="_qIzlEGo_EeiHeOzEjHJVcA _qI0MIGo_EeiHeOzEjHJVcA" target="_oDEnoGo_EeiHeOzEjHJVcA" source="_FnR7IGo6EeiNXo772aHGJQ">
+            <fillColor xmi:id="_qIdm1mo_EeiHeOzEjHJVcA"/>
+          </connections>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_tyx8cGo_EeiHeOzEjHJVcA" owner="_tywuUGo_EeiHeOzEjHJVcA" name="" subLabels="_tzIhwGo_EeiHeOzEjHJVcA _tzJv4Go_EeiHeOzEjHJVcA" target="_sIe90Go_EeiHeOzEjHJVcA" source="_FnR7IGo6EeiNXo772aHGJQ">
+            <fillColor xmi:id="_tyx8cWo_EeiHeOzEjHJVcA"/>
+          </connections>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_w1mNMGo_EeiHeOzEjHJVcA" owner="_w1k_EGo_EeiHeOzEjHJVcA" name="" subLabels="_w18LcGo_EeiHeOzEjHJVcA _w18ygGo_EeiHeOzEjHJVcA" target="_vNltkGo_EeiHeOzEjHJVcA" source="_FnR7IGo6EeiNXo772aHGJQ">
+            <fillColor xmi:id="_w1mNMWo_EeiHeOzEjHJVcA"/>
+          </connections>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_yvuXk2o_EeiHeOzEjHJVcA" owner="_yvtwgGo_EeiHeOzEjHJVcA" name="" subLabels="_ywEV0Go_EeiHeOzEjHJVcA _ywE84Go_EeiHeOzEjHJVcA" target="_x7_NgGo_EeiHeOzEjHJVcA" source="_FnR7IGo6EeiNXo772aHGJQ">
+            <fillColor xmi:id="_yvuXlGo_EeiHeOzEjHJVcA"/>
+          </connections>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_2EALwGo_EeiHeOzEjHJVcA" owner="_2D-9oGo_EeiHeOzEjHJVcA" name="" subLabels="_2EZ0YGo_EeiHeOzEjHJVcA _2EbCgGo_EeiHeOzEjHJVcA" target="_0XZgAGo_EeiHeOzEjHJVcA" source="_FnR7IGo6EeiNXo772aHGJQ">
+            <fillColor xmi:id="_2EALwWo_EeiHeOzEjHJVcA"/>
+          </connections>
+          <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_Aw-Ew2pAEeiHeOzEjHJVcA" owner="_Aw9dsGpAEeiHeOzEjHJVcA" name="" subLabels="_AxV4MGpAEeiHeOzEjHJVcA _AxWfQGpAEeiHeOzEjHJVcA" target="__WDl8Go_EeiHeOzEjHJVcA" source="_FnR7IGo6EeiNXo772aHGJQ">
+            <fillColor xmi:id="_Aw-ExGpAEeiHeOzEjHJVcA"/>
+          </connections>
+          <leftRuler xmi:id="_Naj_s2gVEeiL35XkdGQqtw" unit="2"/>
+          <topRuler xmi:id="_Naj_tGgVEeiL35XkdGQqtw" horizontal="true" unit="2"/>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0Y3HUGo5EeiNXo772aHGJQ" name="Object"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_EliU0Go7EeiNXo772aHGJQ" name="attachment">
+        <ownedAttribute xmi:id="_IW0OEGo7EeiNXo772aHGJQ" name="data_name" visibility="private" type="_NYHvsmgVEeiL35XkdGQqtw"/>
+        <ownedAttribute xmi:id="_JINOwGo7EeiNXo772aHGJQ" name="data_uniqueid" visibility="private" type="_NYHvsmgVEeiL35XkdGQqtw"/>
+        <ownedAttribute xmi:id="_J0-OIGo7EeiNXo772aHGJQ" name="file_path_url" visibility="private" type="_NYHvsmgVEeiL35XkdGQqtw"/>
+        <ownedAttribute xmi:id="_KheHwGo7EeiNXo772aHGJQ" name="file_type" visibility="private" type="_NYHvsmgVEeiL35XkdGQqtw"/>
+        <ownedAttribute xmi:id="_LNncEGo7EeiNXo772aHGJQ" name="file_name" visibility="private" type="_NYHvsmgVEeiL35XkdGQqtw"/>
+        <ownedAttribute xmi:id="_MDf7MGo7EeiNXo772aHGJQ" name="icon" visibility="private" type="_NYHvsmgVEeiL35XkdGQqtw"/>
+        <ownedAttribute xmi:id="_Mvtg8Go7EeiNXo772aHGJQ" name="upload_time" visibility="private" type="_NXrDwGgVEeiL35XkdGQqtw"/>
+        <ownedAttribute xmi:id="_Ne5iMGo7EeiNXo772aHGJQ" name="upload_user_name" visibility="private" type="_NYHvsmgVEeiL35XkdGQqtw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9jXgUGo_EeiHeOzEjHJVcA" name="column_metadata"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_k6kloGo_EeiHeOzEjHJVcA" name="data_ref"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_asj5gGo_EeiHeOzEjHJVcA" name="entity"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Em74cGo6EeiNXo772aHGJQ" name="enum">
+        <ownedAttribute xmi:id="_Jy0HcGo6EeiNXo772aHGJQ" name="name" visibility="private" type="_NYHvsmgVEeiL35XkdGQqtw"/>
+        <ownedAttribute xmi:id="_Lh77sGo6EeiNXo772aHGJQ" name="order_type" visibility="private" type="_NYHvsmgVEeiL35XkdGQqtw"/>
+        <ownedAttribute xmi:id="_MdGjcGo6EeiNXo772aHGJQ" name="enumlist" visibility="private" type="_OTuG0Go6EeiNXo772aHGJQ">
+          <eAnnotations xmi:id="_aSEvMGo6EeiNXo772aHGJQ" source="Internel_TaggedValues">
+            <details xmi:id="_aSEvMWo6EeiNXo772aHGJQ" key="TYPE_ARRAY_DIMENSIONS" value="1"/>
+          </eAnnotations>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_txrQkWo8EeiHeOzEjHJVcA" name="" visibility="private" type="_OTuG0Go6EeiNXo772aHGJQ" isUnique="false" association="_txrQkGo8EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_txr3oGo8EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_txr3oWo8EeiHeOzEjHJVcA" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_OTuG0Go6EeiNXo772aHGJQ" name="enum_item">
+        <ownedAttribute xmi:id="_T7_98Go6EeiNXo772aHGJQ" name="text" visibility="private" type="_NYHvsmgVEeiL35XkdGQqtw"/>
+        <ownedAttribute xmi:id="_U45rEGo6EeiNXo772aHGJQ" name="value" visibility="private" type="_NYHvsmgVEeiL35XkdGQqtw"/>
+        <ownedAttribute xmi:id="_VsGCkGo6EeiNXo772aHGJQ" name="order_column" visibility="private" type="_NYHvsmgVEeiL35XkdGQqtw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="__WCX0Go_EeiHeOzEjHJVcA" name="func_metadata"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vNkfcGo_EeiHeOzEjHJVcA" name="in_data_flow"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_x79_YGo_EeiHeOzEjHJVcA" name="interactive"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sIdIoGo_EeiHeOzEjHJVcA" name="main_data_group"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_FnQF8Go6EeiNXo772aHGJQ" name="meta_data">
+        <ownedAttribute xmi:id="_czPO8Go7EeiNXo772aHGJQ" name="entity" visibility="private" type="_asj5gGo_EeiHeOzEjHJVcA"/>
+        <ownedAttribute xmi:id="_dnbE8Go7EeiNXo772aHGJQ" name="data_ref" visibility="private" type="_k6kloGo_EeiHeOzEjHJVcA"/>
+        <ownedAttribute xmi:id="_eVC_8Go7EeiNXo772aHGJQ" name="self_include_ref" visibility="private" type="_oDDZgGo_EeiHeOzEjHJVcA"/>
+        <ownedAttribute xmi:id="_fCy2wGo7EeiNXo772aHGJQ" name="main_data_group" visibility="private" type="_sIdIoGo_EeiHeOzEjHJVcA"/>
+        <ownedAttribute xmi:id="_fuxzAGo7EeiNXo772aHGJQ" name="in_data_flow" visibility="private" type="_vNkfcGo_EeiHeOzEjHJVcA"/>
+        <ownedAttribute xmi:id="_giRsgGo7EeiNXo772aHGJQ" name="interactive" visibility="private" type="_x79_YGo_EeiHeOzEjHJVcA"/>
+        <ownedAttribute xmi:id="_hUIAMGo7EeiNXo772aHGJQ" name="standard_frm_ui" visibility="private" type="_0XXq0Go_EeiHeOzEjHJVcA"/>
+        <ownedAttribute xmi:id="_iHJYkGo7EeiNXo772aHGJQ" name="column_metadata" visibility="private" type="_9jXgUGo_EeiHeOzEjHJVcA"/>
+        <ownedAttribute xmi:id="_i79gsGo7EeiNXo772aHGJQ" name="func_metadata" visibility="private" type="__WCX0Go_EeiHeOzEjHJVcA"/>
+        <ownedAttribute xmi:id="_il5NQWo_EeiHeOzEjHJVcA" name="" visibility="private" type="_asj5gGo_EeiHeOzEjHJVcA" isUnique="false" association="_il5NQGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_il5NQmo_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_il5NQ2o_EeiHeOzEjHJVcA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_l9HnwWo_EeiHeOzEjHJVcA" name="" visibility="private" type="_k6kloGo_EeiHeOzEjHJVcA" isUnique="false" association="_l9HnwGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l9IO0Go_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l9IO0Wo_EeiHeOzEjHJVcA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_qIc_wWo_EeiHeOzEjHJVcA" name="" visibility="private" type="_oDDZgGo_EeiHeOzEjHJVcA" isUnique="false" association="_qIc_wGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qIdm0Go_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qIdm0Wo_EeiHeOzEjHJVcA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_tyxVYGo_EeiHeOzEjHJVcA" name="" visibility="private" type="_sIdIoGo_EeiHeOzEjHJVcA" isUnique="false" association="_tywuUGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tyxVYWo_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tyxVYmo_EeiHeOzEjHJVcA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_w1lmIGo_EeiHeOzEjHJVcA" name="" visibility="private" type="_vNkfcGo_EeiHeOzEjHJVcA" isUnique="false" association="_w1k_EGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w1lmIWo_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w1lmImo_EeiHeOzEjHJVcA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_yvtwgWo_EeiHeOzEjHJVcA" name="" visibility="private" type="_x79_YGo_EeiHeOzEjHJVcA" isUnique="false" association="_yvtwgGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yvtwgmo_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yvtwg2o_EeiHeOzEjHJVcA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2D-9oWo_EeiHeOzEjHJVcA" name="" visibility="private" type="_0XXq0Go_EeiHeOzEjHJVcA" isUnique="false" association="_2D-9oGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2D_ksGo_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2D_ksWo_EeiHeOzEjHJVcA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Aw9dsWpAEeiHeOzEjHJVcA" name="" visibility="private" type="__WCX0Go_EeiHeOzEjHJVcA" isUnique="false" association="_Aw9dsGpAEeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Aw9dsmpAEeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Aw9ds2pAEeiHeOzEjHJVcA" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oDDZgGo_EeiHeOzEjHJVcA" name="self_include_ref"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0XXq0Go_EeiHeOzEjHJVcA" name="standard_frm_ui"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ub0EQGorEeiNXo772aHGJQ" name="dmeta">
+        <eAnnotations xmi:id="_ljdZUGo5EeiNXo772aHGJQ" source="TaggedValues">
+          <details xmi:id="_ljdZUWo5EeiNXo772aHGJQ" key="Alias.S" value="数元"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_PiAUUGo5EeiNXo772aHGJQ" name="datas" visibility="private" type="_0Y3HUGo5EeiNXo772aHGJQ">
+          <eAnnotations xmi:id="_45zi8Go5EeiNXo772aHGJQ" source="Internel_TaggedValues">
+            <details xmi:id="_45zi8Wo5EeiNXo772aHGJQ" key="TYPE_ARRAY_DIMENSIONS" value="1"/>
+          </eAnnotations>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_QglccGo5EeiNXo772aHGJQ" name="enums" visibility="private" type="_Em74cGo6EeiNXo772aHGJQ">
+          <eAnnotations xmi:id="_oyUFgGo6EeiNXo772aHGJQ" source="Internel_TaggedValues">
+            <details xmi:id="_oyUFgWo6EeiNXo772aHGJQ" key="TYPE_ARRAY_DIMENSIONS" value="1"/>
+          </eAnnotations>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RSrAsGo5EeiNXo772aHGJQ" name="attachments" visibility="private" type="_EliU0Go7EeiNXo772aHGJQ">
+          <eAnnotations xmi:id="_TA6ZQGo7EeiNXo772aHGJQ" source="Internel_TaggedValues">
+            <details xmi:id="_TA6ZQWo7EeiNXo772aHGJQ" key="TYPE_ARRAY_DIMENSIONS" value="1"/>
+          </eAnnotations>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_SF50cGo5EeiNXo772aHGJQ" name="meta_data" visibility="private" type="_FnQF8Go6EeiNXo772aHGJQ"/>
+        <ownedAttribute xmi:id="_TGDC0Go5EeiNXo772aHGJQ" name="query_schema" visibility="private"/>
+        <ownedAttribute xmi:id="_T1aDMGo5EeiNXo772aHGJQ" name="query_schema_result_data" visibility="private"/>
+        <ownedAttribute xmi:id="_2cikYGo7EeiNXo772aHGJQ" name="" visibility="private" type="_0Y3HUGo5EeiNXo772aHGJQ" isUnique="false" association="_2ch9UGo7EeiNXo772aHGJQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2cjLcGo7EeiNXo772aHGJQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2cjLcWo7EeiNXo772aHGJQ" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_qAihQGo8EeiHeOzEjHJVcA" name="" visibility="private" type="_Em74cGo6EeiNXo772aHGJQ" isUnique="false" association="_qAMjAGo8EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qAjIUGo8EeiHeOzEjHJVcA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qAjvYGo8EeiHeOzEjHJVcA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_rpnX4Go8EeiHeOzEjHJVcA" name="" visibility="private" type="_EliU0Go7EeiNXo772aHGJQ" isUnique="false" association="_rpmw0Go8EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rpnX4Wo8EeiHeOzEjHJVcA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rpnX4mo8EeiHeOzEjHJVcA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_sLFGMWo8EeiHeOzEjHJVcA" name="" visibility="private" type="_FnQF8Go6EeiNXo772aHGJQ" isUnique="false" association="_sLFGMGo8EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sLFGMmo8EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLFtQGo8EeiHeOzEjHJVcA" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2ch9UGo7EeiNXo772aHGJQ" memberEnd="_2cikYGo7EeiNXo772aHGJQ _2cjLcmo7EeiNXo772aHGJQ">
+        <ownedEnd xmi:id="_2cjLcmo7EeiNXo772aHGJQ" name="" visibility="private" type="_Ub0EQGorEeiNXo772aHGJQ" isUnique="false" association="_2ch9UGo7EeiNXo772aHGJQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2cjLc2o7EeiNXo772aHGJQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2cjLdGo7EeiNXo772aHGJQ" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_qAMjAGo8EeiHeOzEjHJVcA" memberEnd="_qAihQGo8EeiHeOzEjHJVcA _qAjvYWo8EeiHeOzEjHJVcA">
+        <ownedEnd xmi:id="_qAjvYWo8EeiHeOzEjHJVcA" name="" visibility="private" type="_Ub0EQGorEeiNXo772aHGJQ" isUnique="false" association="_qAMjAGo8EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qAkWcGo8EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qAkWcWo8EeiHeOzEjHJVcA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_rpmw0Go8EeiHeOzEjHJVcA" memberEnd="_rpnX4Go8EeiHeOzEjHJVcA _rpnX42o8EeiHeOzEjHJVcA">
+        <ownedEnd xmi:id="_rpnX42o8EeiHeOzEjHJVcA" name="" visibility="private" type="_Ub0EQGorEeiNXo772aHGJQ" isUnique="false" association="_rpmw0Go8EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rpnX5Go8EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rpn-8Go8EeiHeOzEjHJVcA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_sLFGMGo8EeiHeOzEjHJVcA" memberEnd="_sLFGMWo8EeiHeOzEjHJVcA _sLFtQWo8EeiHeOzEjHJVcA">
+        <ownedEnd xmi:id="_sLFtQWo8EeiHeOzEjHJVcA" name="" visibility="private" type="_Ub0EQGorEeiNXo772aHGJQ" isUnique="false" association="_sLFGMGo8EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sLFtQmo8EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLFtQ2o8EeiHeOzEjHJVcA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_txrQkGo8EeiHeOzEjHJVcA" memberEnd="_txrQkWo8EeiHeOzEjHJVcA _txr3omo8EeiHeOzEjHJVcA">
+        <ownedEnd xmi:id="_txr3omo8EeiHeOzEjHJVcA" name="" visibility="private" type="_Em74cGo6EeiNXo772aHGJQ" isUnique="false" association="_txrQkGo8EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_txr3o2o8EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_txr3pGo8EeiHeOzEjHJVcA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_il5NQGo_EeiHeOzEjHJVcA" memberEnd="_il5NQWo_EeiHeOzEjHJVcA _il5NRGo_EeiHeOzEjHJVcA">
+        <ownedEnd xmi:id="_il5NRGo_EeiHeOzEjHJVcA" name="" visibility="private" type="_FnQF8Go6EeiNXo772aHGJQ" isUnique="false" association="_il5NQGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_il5NRWo_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_il50UGo_EeiHeOzEjHJVcA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_l9HnwGo_EeiHeOzEjHJVcA" memberEnd="_l9HnwWo_EeiHeOzEjHJVcA _l9IO0mo_EeiHeOzEjHJVcA">
+        <ownedEnd xmi:id="_l9IO0mo_EeiHeOzEjHJVcA" name="" visibility="private" type="_FnQF8Go6EeiNXo772aHGJQ" isUnique="false" association="_l9HnwGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l9IO02o_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l9IO1Go_EeiHeOzEjHJVcA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_qIc_wGo_EeiHeOzEjHJVcA" memberEnd="_qIc_wWo_EeiHeOzEjHJVcA _qIdm0mo_EeiHeOzEjHJVcA">
+        <ownedEnd xmi:id="_qIdm0mo_EeiHeOzEjHJVcA" name="" visibility="private" type="_FnQF8Go6EeiNXo772aHGJQ" isUnique="false" association="_qIc_wGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qIdm02o_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qIdm1Go_EeiHeOzEjHJVcA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_tywuUGo_EeiHeOzEjHJVcA" memberEnd="_tyxVYGo_EeiHeOzEjHJVcA _tyxVY2o_EeiHeOzEjHJVcA">
+        <ownedEnd xmi:id="_tyxVY2o_EeiHeOzEjHJVcA" name="" visibility="private" type="_FnQF8Go6EeiNXo772aHGJQ" isUnique="false" association="_tywuUGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tyxVZGo_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tyxVZWo_EeiHeOzEjHJVcA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_w1k_EGo_EeiHeOzEjHJVcA" memberEnd="_w1lmIGo_EeiHeOzEjHJVcA _w1lmI2o_EeiHeOzEjHJVcA">
+        <ownedEnd xmi:id="_w1lmI2o_EeiHeOzEjHJVcA" name="" visibility="private" type="_FnQF8Go6EeiNXo772aHGJQ" isUnique="false" association="_w1k_EGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w1lmJGo_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w1lmJWo_EeiHeOzEjHJVcA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_yvtwgGo_EeiHeOzEjHJVcA" memberEnd="_yvtwgWo_EeiHeOzEjHJVcA _yvuXkGo_EeiHeOzEjHJVcA">
+        <ownedEnd xmi:id="_yvuXkGo_EeiHeOzEjHJVcA" name="" visibility="private" type="_FnQF8Go6EeiNXo772aHGJQ" isUnique="false" association="_yvtwgGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yvuXkWo_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yvuXkmo_EeiHeOzEjHJVcA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2D-9oGo_EeiHeOzEjHJVcA" memberEnd="_2D-9oWo_EeiHeOzEjHJVcA _2D_ksmo_EeiHeOzEjHJVcA">
+        <ownedEnd xmi:id="_2D_ksmo_EeiHeOzEjHJVcA" name="" visibility="private" type="_FnQF8Go6EeiNXo772aHGJQ" isUnique="false" association="_2D-9oGo_EeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2D_ks2o_EeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2D_ktGo_EeiHeOzEjHJVcA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Aw9dsGpAEeiHeOzEjHJVcA" memberEnd="_Aw9dsWpAEeiHeOzEjHJVcA _Aw-EwGpAEeiHeOzEjHJVcA">
+        <ownedEnd xmi:id="_Aw-EwGpAEeiHeOzEjHJVcA" name="" visibility="private" type="_FnQF8Go6EeiNXo772aHGJQ" isUnique="false" association="_Aw9dsGpAEeiHeOzEjHJVcA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Aw-EwWpAEeiHeOzEjHJVcA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Aw-EwmpAEeiHeOzEjHJVcA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mj9ucGrFEeilmt0QOB8XNQ" name="v2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NXYv4GgVEeiL35XkdGQqtw" name="Byte">
+    <eAnnotations xmi:id="_NXmLQGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NXmLQWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NXongGgVEeiL35XkdGQqtw" name="Character">
+    <eAnnotations xmi:id="_NXqcsGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NXqcsWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NXrDwGgVEeiL35XkdGQqtw" name="Date">
+    <eAnnotations xmi:id="_NXs48GgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NXs48WgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NXtgAGgVEeiL35XkdGQqtw" name="Double">
+    <eAnnotations xmi:id="_NXuuIGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NXuuIWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NXvVMGgVEeiL35XkdGQqtw" name="Float">
+    <eAnnotations xmi:id="_NXwjUGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NXxKYGgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NXxKYWgVEeiL35XkdGQqtw" name="Long">
+    <eAnnotations xmi:id="_NXy_kGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NXy_kWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NXzmoGgVEeiL35XkdGQqtw" name="Real">
+    <eAnnotations xmi:id="_NX00wGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NX00wWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NX1b0GgVEeiL35XkdGQqtw" name="Short">
+    <eAnnotations xmi:id="_NYFTcGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYFTcWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYF6gGgVEeiL35XkdGQqtw" name="Int">
+    <eAnnotations xmi:id="_NYHvsGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYHvsWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYHvsmgVEeiL35XkdGQqtw" name="String">
+    <eAnnotations xmi:id="_NYJk4GgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYJk4WgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYKL8GgVEeiL35XkdGQqtw" name="Integer">
+    <eAnnotations xmi:id="_NYLaEGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYLaEWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYMBIGgVEeiL35XkdGQqtw" name="byte">
+    <eAnnotations xmi:id="_NYN2UGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYN2UWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYOdYGgVEeiL35XkdGQqtw" name="character">
+    <eAnnotations xmi:id="_NYPrgGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYPrgWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYQSkGgVEeiL35XkdGQqtw" name="date">
+    <eAnnotations xmi:id="_NYSHwGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYSHwWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYSu0GgVEeiL35XkdGQqtw" name="double">
+    <eAnnotations xmi:id="_NYUkAGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYUkAWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYUkAmgVEeiL35XkdGQqtw" name="float">
+    <eAnnotations xmi:id="_NYWZMGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYWZMWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYXAQGgVEeiL35XkdGQqtw" name="long">
+    <eAnnotations xmi:id="_NYY1cGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYY1cWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYY1cmgVEeiL35XkdGQqtw" name="real">
+    <eAnnotations xmi:id="_NYaqoGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYaqoWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYbRsGgVEeiL35XkdGQqtw" name="short">
+    <eAnnotations xmi:id="_NYcf0GgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYdG4GgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYdG4WgVEeiL35XkdGQqtw" name="int">
+    <eAnnotations xmi:id="_NYe8EGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYe8EWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYfjIGgVEeiL35XkdGQqtw" name="string">
+    <eAnnotations xmi:id="_NYhYUGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYhYUWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NYh_YGgVEeiL35XkdGQqtw" name="integer">
+    <eAnnotations xmi:id="_NYjNgGgVEeiL35XkdGQqtw" source="Internel_TaggedValues">
+      <details xmi:id="_NYjNgWgVEeiL35XkdGQqtw" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_IoscsGpFEeiHeOzEjHJVcA" name="UseCase">
+    <eAnnotations xmi:id="_WMCQcGpGEeiHeOzEjHJVcA" source="Diagrams">
+      <contents xmi:type="trufun:TClassDiagram" xmi:id="_dsYHUGpEEeiHeOzEjHJVcA" id="_dsW5MGpEEeiHeOzEjHJVcA" owner="_IoscsGpFEeiHeOzEjHJVcA" name="实体数据增删改查交互场景" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TClassNode" xmi:id="_h08pwGpFEeiHeOzEjHJVcA" owner="_h07boGpFEeiHeOzEjHJVcA" name="基于实体元数据的标准界面和功能的服务Api" outgoingConnections="_JL2dkGrIEeilmt0QOB8XNQ" location="83,26" size="219,103" autoResize="true">
+          <fillColor xmi:id="_h08pwWpFEeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_h08pwmpFEeiHeOzEjHJVcA"/>
+          <fontColor xmi:id="_h08pw2pFEeiHeOzEjHJVcA"/>
+          <stereotypeNodes xmi:id="_h08pxGpFEeiHeOzEjHJVcA" id="_h07boGpFEeiHeOzEjHJVcA"/>
+          <operationCompartmentNode xmi:id="_h08pxWpFEeiHeOzEjHJVcA">
+            <operations xmi:id="_3_5B8GpFEeiHeOzEjHJVcA" owner="_3_0wgGpFEeiHeOzEjHJVcA" name="获取界面元数据"/>
+            <operations xmi:id="_46YUQGpFEeiHeOzEjHJVcA" owner="_46XtMGpFEeiHeOzEjHJVcA" name="新增实体信息保存"/>
+            <operations xmi:id="_88VGwGpFEeiHeOzEjHJVcA" owner="_88UfsGpFEeiHeOzEjHJVcA" name="修改实体信息保存"/>
+            <operations xmi:id="__wiTwGpFEeiHeOzEjHJVcA" owner="__whssGpFEeiHeOzEjHJVcA" name="撤销、作废、审核、反审核等功能"/>
+          </operationCompartmentNode>
+          <attributeCompartmentNode xmi:id="_h08pxmpFEeiHeOzEjHJVcA"/>
+          <nestedClassifierCompartmentNode xmi:id="_h08px2pFEeiHeOzEjHJVcA"/>
+          <templateParameterCompartmentNode xmi:id="_h08pyGpFEeiHeOzEjHJVcA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TInterfaceNode" xmi:id="_sPbKgGrHEeilmt0QOB8XNQ" owner="_sPZ8YGrHEeilmt0QOB8XNQ" name="IOperationMetaImpl" incomingConnections="_Dn_MYGrIEeilmt0QOB8XNQ" location="511,17" size="144,98" autoResize="true" viewAsClass="true">
+          <fillColor xmi:id="_sPbKgWrHEeilmt0QOB8XNQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_sPbKgmrHEeilmt0QOB8XNQ"/>
+          <fontColor xmi:id="_sPbKg2rHEeilmt0QOB8XNQ"/>
+          <stereotypeNodes xmi:id="_sPbKhGrHEeilmt0QOB8XNQ" id="_sPZ8YGrHEeilmt0QOB8XNQ" name="&lt;&lt;Interface>>"/>
+          <operationCompartmentNode xmi:id="_sPbKhWrHEeilmt0QOB8XNQ">
+            <operations xmi:id="_4Y3BgGrHEeilmt0QOB8XNQ" owner="_4Y2acGrHEeilmt0QOB8XNQ" name="GetMetaDataInfo()"/>
+            <operations xmi:id="_5gbGgGrHEeilmt0QOB8XNQ" owner="_5gafcGrHEeilmt0QOB8XNQ" name="AddSaveMetaDataInfo()"/>
+            <operations xmi:id="_6btDAWrHEeilmt0QOB8XNQ" owner="_6btDAGrHEeilmt0QOB8XNQ" name="EditSaveMetaDataInfo()"/>
+          </operationCompartmentNode>
+          <attributeCompartmentNode xmi:id="_sPbKhmrHEeilmt0QOB8XNQ"/>
+          <nestedClassifierCompartmentNode xmi:id="_sPbKh2rHEeilmt0QOB8XNQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:TClassNode" xmi:id="__QwtcGrHEeilmt0QOB8XNQ" owner="__QvfUGrHEeilmt0QOB8XNQ" name="OperationMetaImpl" incomingConnections="_JL2dkGrIEeilmt0QOB8XNQ" outgoingConnections="_Dn_MYGrIEeilmt0QOB8XNQ" location="364,149" size="124,28" autoResize="true">
+          <fillColor xmi:id="__QwtcWrHEeilmt0QOB8XNQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="__QwtcmrHEeilmt0QOB8XNQ"/>
+          <fontColor xmi:id="__Qwtc2rHEeilmt0QOB8XNQ"/>
+          <stereotypeNodes xmi:id="__QwtdGrHEeilmt0QOB8XNQ" id="__QvfUGrHEeilmt0QOB8XNQ"/>
+          <operationCompartmentNode xmi:id="__QwtdWrHEeilmt0QOB8XNQ"/>
+          <attributeCompartmentNode xmi:id="__QwtdmrHEeilmt0QOB8XNQ"/>
+          <nestedClassifierCompartmentNode xmi:id="__Qwtd2rHEeilmt0QOB8XNQ"/>
+          <templateParameterCompartmentNode xmi:id="__QwteGrHEeilmt0QOB8XNQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_JMFHEGrIEeilmt0QOB8XNQ" name="1" location="386,121" size="23,27" parent="_JL2dkGrIEeilmt0QOB8XNQ" alias="Client.Multiplicity" direction="12" offset="0,0">
+          <fontColor xmi:id="_JMFHEWrIEeilmt0QOB8XNQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_JMGVMGrIEeilmt0QOB8XNQ" name="1" location="302,117" size="23,27" parent="_JL2dkGrIEeilmt0QOB8XNQ" alias="Supplier.Multiplicity" direction="11" offset="0,0">
+          <fontColor xmi:id="_JMGVMWrIEeilmt0QOB8XNQ"/>
+        </nodes>
+        <connections xmi:type="trufun:TRealizeConnection" xmi:id="_Dn_MYGrIEeilmt0QOB8XNQ" owner="_Dn-lUGrIEeilmt0QOB8XNQ" name="" target="_sPbKgGrHEeilmt0QOB8XNQ" source="__QwtcGrHEeilmt0QOB8XNQ">
+          <fillColor xmi:id="_Dn_MYWrIEeilmt0QOB8XNQ"/>
+        </connections>
+        <connections xmi:type="trufun:TNavigableAssociationConnection" xmi:id="_JL2dkGrIEeilmt0QOB8XNQ" owner="_JL0oYGrIEeilmt0QOB8XNQ" name="" subLabels="_JMFHEGrIEeilmt0QOB8XNQ _JMGVMGrIEeilmt0QOB8XNQ" target="__QwtcGrHEeilmt0QOB8XNQ" source="_h08pwGpFEeiHeOzEjHJVcA">
+          <fillColor xmi:id="_JL2dkWrIEeilmt0QOB8XNQ"/>
+        </connections>
+        <leftRuler xmi:id="_dsYHUWpEEeiHeOzEjHJVcA" unit="2"/>
+        <topRuler xmi:id="_dsYHUmpEEeiHeOzEjHJVcA" horizontal="true" unit="2"/>
+      </contents>
+      <contents xmi:type="trufun:TClassDiagram" xmi:id="_o48bgGpGEeiHeOzEjHJVcA" id="_o47NYGpGEeiHeOzEjHJVcA" owner="_IoscsGpFEeiHeOzEjHJVcA" name="查询方案场景" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TClassNode" xmi:id="_tNL34GpGEeiHeOzEjHJVcA" owner="_tNLQ0GpGEeiHeOzEjHJVcA" name="查询方案API" location="78,51" size="122,135" autoResize="true">
+          <fillColor xmi:id="_tNL34WpGEeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_tNL34mpGEeiHeOzEjHJVcA"/>
+          <fontColor xmi:id="_tNL342pGEeiHeOzEjHJVcA"/>
+          <stereotypeNodes xmi:id="_tNL35GpGEeiHeOzEjHJVcA" id="_tNLQ0GpGEeiHeOzEjHJVcA"/>
+          <operationCompartmentNode xmi:id="_tNL35WpGEeiHeOzEjHJVcA">
+            <operations xmi:id="_wJAv0WpGEeiHeOzEjHJVcA" owner="_wJAv0GpGEeiHeOzEjHJVcA" name="获取查询方案元数据"/>
+            <operations xmi:id="_x5jgYGpGEeiHeOzEjHJVcA" owner="_x5i5UGpGEeiHeOzEjHJVcA" name="修改查询方案名称"/>
+            <operations xmi:id="_304PUWpGEeiHeOzEjHJVcA" owner="_304PUGpGEeiHeOzEjHJVcA" name="新增一个查询方案"/>
+            <operations xmi:id="_6KIPcWpGEeiHeOzEjHJVcA" owner="_6KIPcGpGEeiHeOzEjHJVcA" name="编辑保存查询方案"/>
+            <operations xmi:id="_D3dQYGpHEeiHeOzEjHJVcA" owner="_D3cpUGpHEeiHeOzEjHJVcA" name="实时查询"/>
+            <operations xmi:id="_FYPtsGpHEeiHeOzEjHJVcA" owner="_FYPGoGpHEeiHeOzEjHJVcA" name="删除查询方案"/>
+          </operationCompartmentNode>
+          <attributeCompartmentNode xmi:id="_tNL35mpGEeiHeOzEjHJVcA"/>
+          <nestedClassifierCompartmentNode xmi:id="_tNL352pGEeiHeOzEjHJVcA"/>
+          <templateParameterCompartmentNode xmi:id="_tNL36GpGEeiHeOzEjHJVcA"/>
+        </nodes>
+        <leftRuler xmi:id="_o48bgWpGEeiHeOzEjHJVcA" unit="2"/>
+        <topRuler xmi:id="_o48bgmpGEeiHeOzEjHJVcA" horizontal="true" unit="2"/>
+      </contents>
+      <contents xmi:type="trufun:TClassDiagram" xmi:id="_WGLMsGrNEeilmt0QOB8XNQ" id="_WGJXgGrNEeilmt0QOB8XNQ" owner="_IoscsGpFEeiHeOzEjHJVcA" name="数据选择窗口" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TClassNode" xmi:id="_iUPsEGrNEeilmt0QOB8XNQ" owner="_iUPFAGrNEeilmt0QOB8XNQ" name="数据选择窗口" location="167,84" size="166,55" autoResize="true">
+          <fillColor xmi:id="_iUPsEWrNEeilmt0QOB8XNQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_iUPsEmrNEeilmt0QOB8XNQ"/>
+          <fontColor xmi:id="_iUPsE2rNEeilmt0QOB8XNQ"/>
+          <stereotypeNodes xmi:id="_iUPsFGrNEeilmt0QOB8XNQ" id="_iUPFAGrNEeilmt0QOB8XNQ"/>
+          <operationCompartmentNode xmi:id="_iUPsFWrNEeilmt0QOB8XNQ"/>
+          <attributeCompartmentNode xmi:id="_iUPsFmrNEeilmt0QOB8XNQ">
+            <attributes xmi:id="_0_RAwGrNEeilmt0QOB8XNQ" owner="_0_QZsGrNEeilmt0QOB8XNQ" name="dMeta : data_with_meta_data"/>
+          </attributeCompartmentNode>
+          <nestedClassifierCompartmentNode xmi:id="_iUPsF2rNEeilmt0QOB8XNQ"/>
+          <templateParameterCompartmentNode xmi:id="_iUPsGGrNEeilmt0QOB8XNQ"/>
+        </nodes>
+        <leftRuler xmi:id="_WGLMsWrNEeilmt0QOB8XNQ" unit="2"/>
+        <topRuler xmi:id="_WGLzwGrNEeilmt0QOB8XNQ" horizontal="true" unit="2"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_h07boGpFEeiHeOzEjHJVcA" name="Class1">
+      <eAnnotations xmi:id="_CJZBgGpGEeiHeOzEjHJVcA" source="TaggedValues">
+        <details xmi:id="_CJZBgWpGEeiHeOzEjHJVcA" key="IsShowAlias.B" value="true"/>
+        <details xmi:id="_I9XPsGpGEeiHeOzEjHJVcA" key="Alias.S" value="基于实体元数据的标准界面和功能的服务Api"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_JL1PcGrIEeilmt0QOB8XNQ" name="" visibility="private" type="__QvfUGrHEeilmt0QOB8XNQ" isUnique="false" association="_JL0oYGrIEeilmt0QOB8XNQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JL12gGrIEeilmt0QOB8XNQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JL12gWrIEeilmt0QOB8XNQ" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_3_0wgGpFEeiHeOzEjHJVcA" name="QueryMetadataReq" visibility="public">
+        <eAnnotations xmi:id="_6UT7oGpFEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_6UT7oWpFEeiHeOzEjHJVcA" key="Alias.S" value="获取界面元数据"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_46XtMGpFEeiHeOzEjHJVcA" name="AddSaveMetadataReq" visibility="public">
+        <eAnnotations xmi:id="_78gBcGpFEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_78gBcWpFEeiHeOzEjHJVcA" key="Alias.S" value="新增实体信息保存"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_88UfsGpFEeiHeOzEjHJVcA" name="EditSaveMetadataReq" visibility="public">
+        <eAnnotations xmi:id="_-sk8YGpFEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_-sk8YWpFEeiHeOzEjHJVcA" key="Alias.S" value="修改实体信息保存"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="__whssGpFEeiHeOzEjHJVcA" name="OperateMetadataCommonReq" visibility="public">
+        <eAnnotations xmi:id="_BItnoGpGEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_BItnoWpGEeiHeOzEjHJVcA" key="Alias.S" value="撤销、作废、审核、反审核等功能"/>
+        </eAnnotations>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tNLQ0GpGEeiHeOzEjHJVcA" name="QueryScheme">
+      <eAnnotations xmi:id="_u2O5UGpGEeiHeOzEjHJVcA" source="TaggedValues">
+        <details xmi:id="_u2O5UWpGEeiHeOzEjHJVcA" key="Alias.S" value="查询方案API"/>
+      </eAnnotations>
+      <ownedOperation xmi:id="_wJAv0GpGEeiHeOzEjHJVcA" name="GetQuerySolutionReq" visibility="public">
+        <eAnnotations xmi:id="_1xjssGpGEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_1xjssWpGEeiHeOzEjHJVcA" key="Alias.S" value="获取查询方案元数据"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_x5i5UGpGEeiHeOzEjHJVcA" name="EditQuerySolutionNameReq" visibility="public">
+        <eAnnotations xmi:id="_z_CmMGpGEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_z_CmMWpGEeiHeOzEjHJVcA" key="Alias.S" value="修改查询方案名称"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_304PUGpGEeiHeOzEjHJVcA" name="AddQuerySolutionSaveReq" visibility="public">
+        <eAnnotations xmi:id="_5MdGQGpGEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_5MdGQWpGEeiHeOzEjHJVcA" key="Alias.S" value="新增一个查询方案"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_6KIPcGpGEeiHeOzEjHJVcA" name="EditQuerySolutionSaveReq" visibility="public">
+        <eAnnotations xmi:id="_7T8-QGpGEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_7T8-QWpGEeiHeOzEjHJVcA" key="Alias.S" value="编辑保存查询方案"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_D3cpUGpHEeiHeOzEjHJVcA" name="GetQueryResultReq" visibility="public">
+        <eAnnotations xmi:id="_FDSKUGpHEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_FDSxYGpHEeiHeOzEjHJVcA" key="Alias.S" value="实时查询"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_FYPGoGpHEeiHeOzEjHJVcA" name="DeletedQuerySolutionReq" visibility="public">
+        <eAnnotations xmi:id="_HYbcwGpHEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_HYbcwWpHEeiHeOzEjHJVcA" key="Alias.S" value="删除查询方案"/>
+        </eAnnotations>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_sPZ8YGrHEeilmt0QOB8XNQ" name="IOperationMetaImpl">
+      <ownedOperation xmi:id="_4Y2acGrHEeilmt0QOB8XNQ" name="GetMetaDataInfo" visibility="public"/>
+      <ownedOperation xmi:id="_5gafcGrHEeilmt0QOB8XNQ" name="AddSaveMetaDataInfo" visibility="public"/>
+      <ownedOperation xmi:id="_6btDAGrHEeilmt0QOB8XNQ" name="EditSaveMetaDataInfo" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__QvfUGrHEeilmt0QOB8XNQ" name="OperationMetaImpl">
+      <interfaceRealization xmi:id="_Dn-lUGrIEeilmt0QOB8XNQ" client="__QvfUGrHEeilmt0QOB8XNQ" supplier="_sPZ8YGrHEeilmt0QOB8XNQ" contract="_sPZ8YGrHEeilmt0QOB8XNQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_JL0oYGrIEeilmt0QOB8XNQ" memberEnd="_JL1PcGrIEeilmt0QOB8XNQ _JL12gmrIEeilmt0QOB8XNQ">
+      <ownedEnd xmi:id="_JL12gmrIEeilmt0QOB8XNQ" name="" visibility="private" type="_h07boGpFEeiHeOzEjHJVcA" isUnique="false" association="_JL0oYGrIEeilmt0QOB8XNQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JL12g2rIEeilmt0QOB8XNQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JL12hGrIEeilmt0QOB8XNQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iUPFAGrNEeilmt0QOB8XNQ" name="DataSelectComponent">
+      <eAnnotations xmi:id="_nRPKgGrNEeilmt0QOB8XNQ" source="TaggedValues">
+        <details xmi:id="_nRPKgWrNEeilmt0QOB8XNQ" key="Alias.S" value="数据选择窗口"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_0_QZsGrNEeilmt0QOB8XNQ" name="dMeta" visibility="private" type="_Ub0EQGorEeiNXo772aHGJQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_jpxWAGpIEeiHeOzEjHJVcA" name="EstablishMeta">
+    <eAnnotations xmi:id="_4RUBwGpIEeiHeOzEjHJVcA" source="Diagrams">
+      <contents xmi:type="trufun:TClassDiagram" xmi:id="_5g_2EGpKEeiHeOzEjHJVcA" id="_5g_PAGpKEeiHeOzEjHJVcA" owner="_jpxWAGpIEeiHeOzEjHJVcA" name="实体管理" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TClassNode" xmi:id="_8UobUGpKEeiHeOzEjHJVcA" owner="_8Ul_EGpKEeiHeOzEjHJVcA" name="Class1" location="109,31" size="122,167" autoResize="true">
+          <fillColor xmi:id="_8UobUWpKEeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_8UobUmpKEeiHeOzEjHJVcA"/>
+          <fontColor xmi:id="_8UobU2pKEeiHeOzEjHJVcA"/>
+          <stereotypeNodes xmi:id="_8UobVGpKEeiHeOzEjHJVcA" id="_G1eZUGpKEeiHeOzEjHJVcA" name="&lt;&lt;WebAPIClass>>"/>
+          <operationCompartmentNode xmi:id="_8UobVWpKEeiHeOzEjHJVcA">
+            <operations xmi:id="_8UobVmpKEeiHeOzEjHJVcA" owner="_8Ul_E2pKEeiHeOzEjHJVcA" name="获取实体"/>
+            <operations xmi:id="_8UobV2pKEeiHeOzEjHJVcA" owner="_8Ul_FmpKEeiHeOzEjHJVcA" name="新增实体"/>
+            <operations xmi:id="_8UobWGpKEeiHeOzEjHJVcA" owner="_8Ul_GWpKEeiHeOzEjHJVcA" name="删除实体"/>
+            <operations xmi:id="_8UobWWpKEeiHeOzEjHJVcA" owner="_8Ul_HGpKEeiHeOzEjHJVcA" name="获取数据源.表"/>
+            <operations xmi:id="_8UobWmpKEeiHeOzEjHJVcA" owner="_8Ul_H2pKEeiHeOzEjHJVcA" name="保存实体列分组"/>
+            <operations xmi:id="_8UobW2pKEeiHeOzEjHJVcA" owner="_8Ul_ImpKEeiHeOzEjHJVcA" name="向组添加或移除字段"/>
+            <operations xmi:id="_8UobXGpKEeiHeOzEjHJVcA" owner="_8Ul_JWpKEeiHeOzEjHJVcA" name="删除实体列分组"/>
+            <operations xmi:id="_8UobXWpKEeiHeOzEjHJVcA" owner="_8Ul_KGpKEeiHeOzEjHJVcA" name="获取实体树"/>
+          </operationCompartmentNode>
+          <attributeCompartmentNode xmi:id="_8UobXmpKEeiHeOzEjHJVcA"/>
+          <nestedClassifierCompartmentNode xmi:id="_8UobX2pKEeiHeOzEjHJVcA"/>
+          <templateParameterCompartmentNode xmi:id="_8UobYGpKEeiHeOzEjHJVcA"/>
+        </nodes>
+        <leftRuler xmi:id="_5g_2EWpKEeiHeOzEjHJVcA" unit="2"/>
+        <topRuler xmi:id="_5g_2EmpKEeiHeOzEjHJVcA" horizontal="true" unit="2"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8Ul_EGpKEeiHeOzEjHJVcA" name="Class1">
+      <ownedOperation xmi:id="_8Ul_E2pKEeiHeOzEjHJVcA" name="QueryDataEntityReq" visibility="public">
+        <eAnnotations xmi:id="_8Ul_FGpKEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_8Ul_FWpKEeiHeOzEjHJVcA" key="Alias.S" value="获取实体"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8Ul_FmpKEeiHeOzEjHJVcA" name="AddEntityReq" visibility="public">
+        <eAnnotations xmi:id="_8Ul_F2pKEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_8Ul_GGpKEeiHeOzEjHJVcA" key="Alias.S" value="新增实体"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8Ul_GWpKEeiHeOzEjHJVcA" name="DeleteDataEntityReq" visibility="public">
+        <eAnnotations xmi:id="_8Ul_GmpKEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_8Ul_G2pKEeiHeOzEjHJVcA" key="Alias.S" value="删除实体"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8Ul_HGpKEeiHeOzEjHJVcA" name="QueryDataSheetReq" visibility="public">
+        <eAnnotations xmi:id="_8Ul_HWpKEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_8Ul_HmpKEeiHeOzEjHJVcA" key="Alias.S" value="获取数据源.表"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8Ul_H2pKEeiHeOzEjHJVcA" name="SaveColumnGroupReq" visibility="public">
+        <eAnnotations xmi:id="_8Ul_IGpKEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_8Ul_IWpKEeiHeOzEjHJVcA" key="Alias.S" value="保存实体列分组"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8Ul_ImpKEeiHeOzEjHJVcA" name="SaveColumnBindToGroupReq" visibility="public">
+        <eAnnotations xmi:id="_8Ul_I2pKEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_8Ul_JGpKEeiHeOzEjHJVcA" key="Alias.S" value="向组添加或移除字段"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8Ul_JWpKEeiHeOzEjHJVcA" name="DeleteColumnGroupReq" visibility="public">
+        <eAnnotations xmi:id="_8Ul_JmpKEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_8Ul_J2pKEeiHeOzEjHJVcA" key="Alias.S" value="删除实体列分组"/>
+        </eAnnotations>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8Ul_KGpKEeiHeOzEjHJVcA" name="GetEntityTree" visibility="public">
+        <eAnnotations xmi:id="_8Ul_KWpKEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_8Ul_KmpKEeiHeOzEjHJVcA" key="Alias.S" value="获取实体树"/>
+        </eAnnotations>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_r0dNkGpKEeiHeOzEjHJVcA" name="WebAPI">
+    <eAnnotations xmi:id="_tx81AGpKEeiHeOzEjHJVcA" source="Diagrams"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_E33KwGrGEeilmt0QOB8XNQ" name="v1">
+      <eAnnotations xmi:id="_IeM_UGrGEeilmt0QOB8XNQ" source="Diagrams">
+        <contents xmi:type="trufun:TClassDiagram" xmi:id="_Syi9YGpMEeiHeOzEjHJVcA" id="_SyhvQGpMEeiHeOzEjHJVcA" owner="_E33KwGrGEeilmt0QOB8XNQ" name="实体数据增删改查交互场景API" zoom="1.0" gridSpacing="22,22">
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_VqUbwGpMEeiHeOzEjHJVcA" owner="_VqT0sGpMEeiHeOzEjHJVcA" name="基于实体元数据的标准界面和功能的服务Api" stereotype="&lt;&lt;WebAPIClass>>" location="112,75" size="219,114" autoResize="true">
+            <fillColor xmi:id="_VqUbwWpMEeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_VqUbwmpMEeiHeOzEjHJVcA"/>
+            <fontColor xmi:id="_VqUbw2pMEeiHeOzEjHJVcA"/>
+            <stereotypeNodes xmi:id="_VqUbxGpMEeiHeOzEjHJVcA" id="_h07boGpFEeiHeOzEjHJVcA" name="&lt;&lt;WebAPIClass>>"/>
+            <operationCompartmentNode xmi:id="_VqUbxWpMEeiHeOzEjHJVcA">
+              <operations xmi:id="_VqUbxmpMEeiHeOzEjHJVcA" owner="_VqT0tGpMEeiHeOzEjHJVcA" name="获取界面元数据"/>
+              <operations xmi:id="_VqUbx2pMEeiHeOzEjHJVcA" owner="_VqT0t2pMEeiHeOzEjHJVcA" name="新增实体信息保存"/>
+              <operations xmi:id="_VqUbyGpMEeiHeOzEjHJVcA" owner="_VqT0umpMEeiHeOzEjHJVcA" name="修改实体信息保存"/>
+              <operations xmi:id="_VqUbyWpMEeiHeOzEjHJVcA" owner="_VqT0vWpMEeiHeOzEjHJVcA" name="撤销、作废、审核、反审核等功能"/>
+            </operationCompartmentNode>
+            <attributeCompartmentNode xmi:id="_VqUbympMEeiHeOzEjHJVcA"/>
+            <nestedClassifierCompartmentNode xmi:id="_VqUby2pMEeiHeOzEjHJVcA"/>
+            <templateParameterCompartmentNode xmi:id="_VqUbzGpMEeiHeOzEjHJVcA"/>
+          </nodes>
+          <nodes xmi:type="trufun:TArtifactNode" xmi:id="_edzDkGpMEeiHeOzEjHJVcA" owner="_edycgGpMEeiHeOzEjHJVcA" name="Artifact1" location="522,98" size="125,40">
+            <fillColor xmi:id="_edzDkWpMEeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_edzDkmpMEeiHeOzEjHJVcA"/>
+            <fontColor xmi:id="_edzDk2pMEeiHeOzEjHJVcA"/>
+            <stereotypeNodes xmi:id="_edzDlGpMEeiHeOzEjHJVcA" id="_edycgGpMEeiHeOzEjHJVcA"/>
+            <attributeCompartmentNode xmi:id="_edzDlWpMEeiHeOzEjHJVcA"/>
+            <operationCompartmentNode xmi:id="_edzDlmpMEeiHeOzEjHJVcA"/>
+          </nodes>
+          <leftRuler xmi:id="_Syi9YWpMEeiHeOzEjHJVcA" unit="2"/>
+          <topRuler xmi:id="_Syi9YmpMEeiHeOzEjHJVcA" horizontal="true" unit="2"/>
+        </contents>
+        <contents xmi:type="trufun:TClassDiagram" xmi:id="_4RUBwWpIEeiHeOzEjHJVcA" id="_4RTasGpIEeiHeOzEjHJVcA" owner="_E33KwGrGEeilmt0QOB8XNQ" name="实体管理API" zoom="1.0" gridSpacing="22,22">
+          <nodes xmi:type="trufun:TClassNode" xmi:id="_G1gOgGpKEeiHeOzEjHJVcA" owner="_G1eZUGpKEeiHeOzEjHJVcA" name="Class1" stereotype="&lt;&lt;WebAPIClass>>" location="102,108" size="122,178" autoResize="true">
+            <fillColor xmi:id="_G1gOgWpKEeiHeOzEjHJVcA" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_G1gOgmpKEeiHeOzEjHJVcA"/>
+            <fontColor xmi:id="_G1gOg2pKEeiHeOzEjHJVcA"/>
+            <stereotypeNodes xmi:id="_G1gOhGpKEeiHeOzEjHJVcA" id="_G1eZUGpKEeiHeOzEjHJVcA" name="&lt;&lt;WebAPIClass>>"/>
+            <operationCompartmentNode xmi:id="_G1gOhWpKEeiHeOzEjHJVcA">
+              <operations xmi:id="_IpU8kGpKEeiHeOzEjHJVcA" owner="_IpUVgGpKEeiHeOzEjHJVcA" name="获取实体"/>
+              <operations xmi:id="_K113cWpKEeiHeOzEjHJVcA" owner="_K113cGpKEeiHeOzEjHJVcA" name="新增实体"/>
+              <operations xmi:id="_M_QbAGpKEeiHeOzEjHJVcA" owner="_M_Pz8GpKEeiHeOzEjHJVcA" name="删除实体"/>
+              <operations xmi:id="_PVmnUWpKEeiHeOzEjHJVcA" owner="_PVmnUGpKEeiHeOzEjHJVcA" name="获取数据源.表"/>
+              <operations xmi:id="_RjuEsWpKEeiHeOzEjHJVcA" owner="_RjuEsGpKEeiHeOzEjHJVcA" name="保存实体列分组"/>
+              <operations xmi:id="_TYVc8WpKEeiHeOzEjHJVcA" owner="_TYVc8GpKEeiHeOzEjHJVcA" name="向组添加或移除字段"/>
+              <operations xmi:id="_WT3Z8GpKEeiHeOzEjHJVcA" owner="_WT2y4GpKEeiHeOzEjHJVcA" name="删除实体列分组"/>
+              <operations xmi:id="_Yb42YWpKEeiHeOzEjHJVcA" owner="_Yb42YGpKEeiHeOzEjHJVcA" name="获取实体树"/>
+            </operationCompartmentNode>
+            <attributeCompartmentNode xmi:id="_G1gOhmpKEeiHeOzEjHJVcA"/>
+            <nestedClassifierCompartmentNode xmi:id="_G1gOh2pKEeiHeOzEjHJVcA"/>
+            <templateParameterCompartmentNode xmi:id="_G1gOiGpKEeiHeOzEjHJVcA"/>
+          </nodes>
+          <leftRuler xmi:id="_4RUo0GpIEeiHeOzEjHJVcA" unit="2"/>
+          <topRuler xmi:id="_4RUo0WpIEeiHeOzEjHJVcA" horizontal="true" unit="2"/>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_edycgGpMEeiHeOzEjHJVcA" name="Artifact1"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_G1eZUGpKEeiHeOzEjHJVcA" name="Class1">
+        <eAnnotations xmi:id="_jU3LEGpKEeiHeOzEjHJVcA" source="Stereotypes">
+          <details xmi:id="_jU3LEWpKEeiHeOzEjHJVcA" key="Stereotypes" value="WebAPIClass"/>
+        </eAnnotations>
+        <ownedOperation xmi:id="_IpUVgGpKEeiHeOzEjHJVcA" name="QueryDataEntityReq" visibility="public">
+          <eAnnotations xmi:id="_J4hTkGpKEeiHeOzEjHJVcA" source="TaggedValues">
+            <details xmi:id="_J4hTkWpKEeiHeOzEjHJVcA" key="Alias.S" value="获取实体"/>
+          </eAnnotations>
+        </ownedOperation>
+        <ownedOperation xmi:id="_K113cGpKEeiHeOzEjHJVcA" name="AddEntityReq" visibility="public">
+          <eAnnotations xmi:id="_MB2XkGpKEeiHeOzEjHJVcA" source="TaggedValues">
+            <details xmi:id="_MB2XkWpKEeiHeOzEjHJVcA" key="Alias.S" value="新增实体"/>
+          </eAnnotations>
+        </ownedOperation>
+        <ownedOperation xmi:id="_M_Pz8GpKEeiHeOzEjHJVcA" name="DeleteDataEntityReq" visibility="public">
+          <eAnnotations xmi:id="_OHJQIGpKEeiHeOzEjHJVcA" source="TaggedValues">
+            <details xmi:id="_OHJQIWpKEeiHeOzEjHJVcA" key="Alias.S" value="删除实体"/>
+          </eAnnotations>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PVmnUGpKEeiHeOzEjHJVcA" name="QueryDataSheetReq" visibility="public">
+          <eAnnotations xmi:id="_QgxZ8GpKEeiHeOzEjHJVcA" source="TaggedValues">
+            <details xmi:id="_QgxZ8WpKEeiHeOzEjHJVcA" key="Alias.S" value="获取数据源.表"/>
+          </eAnnotations>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RjuEsGpKEeiHeOzEjHJVcA" name="SaveColumnGroupReq" visibility="public">
+          <eAnnotations xmi:id="_SmfJQGpKEeiHeOzEjHJVcA" source="TaggedValues">
+            <details xmi:id="_SmfJQWpKEeiHeOzEjHJVcA" key="Alias.S" value="保存实体列分组"/>
+          </eAnnotations>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TYVc8GpKEeiHeOzEjHJVcA" name="SaveColumnBindToGroupReq" visibility="public">
+          <eAnnotations xmi:id="_UhlkAGpKEeiHeOzEjHJVcA" source="TaggedValues">
+            <details xmi:id="_UhlkAWpKEeiHeOzEjHJVcA" key="Alias.S" value="向组添加或移除字段"/>
+          </eAnnotations>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WT2y4GpKEeiHeOzEjHJVcA" name="DeleteColumnGroupReq" visibility="public">
+          <eAnnotations xmi:id="_XsG_QGpKEeiHeOzEjHJVcA" source="TaggedValues">
+            <details xmi:id="_XsG_QWpKEeiHeOzEjHJVcA" key="Alias.S" value="删除实体列分组"/>
+          </eAnnotations>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Yb42YGpKEeiHeOzEjHJVcA" name="GetEntityTree" visibility="public">
+          <eAnnotations xmi:id="_ZtdL8GpKEeiHeOzEjHJVcA" source="TaggedValues">
+            <details xmi:id="_ZtdL8WpKEeiHeOzEjHJVcA" key="Alias.S" value="获取实体树"/>
+          </eAnnotations>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VqT0sGpMEeiHeOzEjHJVcA" name="Class1">
+        <eAnnotations xmi:id="_VqT0sWpMEeiHeOzEjHJVcA" source="TaggedValues">
+          <details xmi:id="_VqT0smpMEeiHeOzEjHJVcA" key="IsShowAlias.B" value="true"/>
+          <details xmi:id="_VqT0s2pMEeiHeOzEjHJVcA" key="Alias.S" value="基于实体元数据的标准界面和功能的服务Api"/>
+        </eAnnotations>
+        <eAnnotations xmi:id="_X2q-kGpMEeiHeOzEjHJVcA" source="Stereotypes">
+          <details xmi:id="_X2q-kWpMEeiHeOzEjHJVcA" key="Stereotypes" value="WebAPIClass"/>
+        </eAnnotations>
+        <ownedOperation xmi:id="_VqT0tGpMEeiHeOzEjHJVcA" name="QueryMetadataReq" visibility="public">
+          <eAnnotations xmi:id="_VqT0tWpMEeiHeOzEjHJVcA" source="TaggedValues">
+            <details xmi:id="_VqT0tmpMEeiHeOzEjHJVcA" key="Alias.S" value="获取界面元数据"/>
+          </eAnnotations>
+        </ownedOperation>
+        <ownedOperation xmi:id="_VqT0t2pMEeiHeOzEjHJVcA" name="AddSaveMetadataReq" visibility="public">
+          <eAnnotations xmi:id="_VqT0uGpMEeiHeOzEjHJVcA" source="TaggedValues">
+            <details xmi:id="_VqT0uWpMEeiHeOzEjHJVcA" key="Alias.S" value="新增实体信息保存"/>
+          </eAnnotations>
+        </ownedOperation>
+        <ownedOperation xmi:id="_VqT0umpMEeiHeOzEjHJVcA" name="EditSaveMetadataReq" visibility="public">
+          <eAnnotations xmi:id="_VqT0u2pMEeiHeOzEjHJVcA" source="TaggedValues">
+            <details xmi:id="_VqT0vGpMEeiHeOzEjHJVcA" key="Alias.S" value="修改实体信息保存"/>
+          </eAnnotations>
+        </ownedOperation>
+        <ownedOperation xmi:id="_VqT0vWpMEeiHeOzEjHJVcA" name="OperateMetadataCommonReq" visibility="public">
+          <eAnnotations xmi:id="_VqT0vmpMEeiHeOzEjHJVcA" source="TaggedValues">
+            <details xmi:id="_VqT0v2pMEeiHeOzEjHJVcA" key="Alias.S" value="撤销、作废、审核、反审核等功能"/>
+          </eAnnotations>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GiVvkGrGEeilmt0QOB8XNQ" name="v2"/>
+  </packagedElement>
+  <profileApplication xmi:id="_NXKtcGgVEeiL35XkdGQqtw">
+    <eAnnotations xmi:id="_NXKtcWgVEeiL35XkdGQqtw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_NXQNAGgVEeiL35XkdGQqtw">
+    <eAnnotations xmi:id="_NXQNAWgVEeiL35XkdGQqtw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="platform:/plugin/com.trufun.uml2.kernel/UML2Default.profile.uml#_kRqOsopdEduhQbAH2yN0Zw"/>
+    </eAnnotations>
+    <appliedProfile href="platform:/plugin/com.trufun.uml2.kernel/UML2Default.profile.uml#_kRqOsIpdEduhQbAH2yN0Zw"/>
+  </profileApplication>
+  <profileApplication xmi:id="_NXSCMGgVEeiL35XkdGQqtw">
+    <eAnnotations xmi:id="_NXSCMWgVEeiL35XkdGQqtw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="platform:/plugin/com.trufun.uml2.kernel/UML2Ext.profile.uml#_WyVnIwPrEd-5Zf6Hw9sz1g"/>
+    </eAnnotations>
+    <appliedProfile href="platform:/plugin/com.trufun.uml2.kernel/UML2Ext.profile.uml#_WyVnIQPrEd-5Zf6Hw9sz1g"/>
+  </profileApplication>
+</uml:Model>

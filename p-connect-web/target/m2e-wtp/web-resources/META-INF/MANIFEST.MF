@@ -4,7 +4,6 @@ Build-Jdk: 10.0.1
 Implementation-Title: p-connect-web
 Implementation-Version: 0.0.4
 Implementation-Vendor-Id: cn.bgenius
-Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
- ot-starter-parent/p-connect/p-connect-web
+Implementation-URL: http://maven.apache.org/p-connect/p-connect-web
 Created-By: Maven Integration for Eclipse
 

@@ -1,4 +1,4 @@
-package cn.bgenius.pconnect.orientdb.model;
+package cn.bgenius.pconnect.web.orientdb.model;
 
 
 

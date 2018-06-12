@@ -9,6 +9,7 @@
 	<configs>
 	</configs>
 	<autoconfigs>
+		<config>java:cn.bgenius.pconnect.web.Application</config>
 	</autoconfigs>
 	<configSets>
 	</configSets>

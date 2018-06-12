@@ -2,7 +2,7 @@
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:trufun="http://trufun" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Vgzw4GfPEeiD6bsrYqqrxw" name="UML2 Model">
   <eAnnotations xmi:id="_VjXVoGfPEeiD6bsrYqqrxw" source="TaggedValues">
     <details xmi:id="_VjXVoWfPEeiD6bsrYqqrxw" key="ProjectType" value="UML2Project"/>
-    <details xmi:id="_hyj2YGfPEeiD6bsrYqqrxw" key="Diagrams" value="_VoE2gGfPEeiD6bsrYqqrxw,_9d8woGfVEeiD6bsrYqqrxw,_NX7hEGfWEeiD6bsrYqqrxw,_fZwK8GfaEeiD6bsrYqqrxw,_tm9QgGfaEeiD6bsrYqqrxw,_GzjmYGfcEeiD6bsrYqqrxw,_x-DIYGfhEeiD6bsrYqqrxw,_5SL0YGiREeiGOtvk0tfvlw,_L7m7sGiUEeiGOtvk0tfvlw,"/>
+    <details xmi:id="_hyj2YGfPEeiD6bsrYqqrxw" key="Diagrams" value="_tm9QgGfaEeiD6bsrYqqrxw,_w-o0MGreEeiCc8Vc4G0qcw,_vVPCsG0pEei-v-ttb1oaNQ,_nngskG0qEei-v-ttb1oaNQ,_dsW5MGpEEeiHeOzEjHJVcA,_Naj_sGgVEeiL35XkdGQqtw,_o47NYGpGEeiHeOzEjHJVcA,_4RTasGpIEeiHeOzEjHJVcA,_5g_PAGpKEeiHeOzEjHJVcA,_SyhvQGpMEeiHeOzEjHJVcA,_WGJXgGrNEeilmt0QOB8XNQ,"/>
   </eAnnotations>
   <eAnnotations xmi:id="_VoFdkGfPEeiD6bsrYqqrxw" source="Diagrams">
     <contents xmi:type="trufun:TClassDiagram" xmi:id="_tm93kGfaEeiD6bsrYqqrxw" id="_tm9QgGfaEeiD6bsrYqqrxw" owner="_Vgzw4GfPEeiD6bsrYqqrxw" name="Sys" zoom="1.0" gridSpacing="22,22">
@@ -1240,6 +1240,219 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VtluBWfiEeiD6bsrYqqrxw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VtluBmfiEeiD6bsrYqqrxw" value="1"/>
     </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_t7-UcGreEeiCc8Vc4G0qcw" name="AuthCenter">
+    <eAnnotations xmi:id="_w-qpYGreEeiCc8Vc4G0qcw" source="Diagrams">
+      <contents xmi:type="trufun:TClassDiagram" xmi:id="_w-qpYWreEeiCc8Vc4G0qcw" id="_w-o0MGreEeiCc8Vc4G0qcw" owner="_t7-UcGreEeiCc8Vc4G0qcw" name="AuthService" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TClassNode" xmi:id="_yjlYwGreEeiCc8Vc4G0qcw" owner="_yjkxsGreEeiCc8Vc4G0qcw" name="AuthService" stereotype="&lt;&lt;WebApi>>" location="85,69" size="392,82" autoResize="true">
+          <fillColor xmi:id="_yjlYwWreEeiCc8Vc4G0qcw" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_yjlYwmreEeiCc8Vc4G0qcw"/>
+          <fontColor xmi:id="_yjlYw2reEeiCc8Vc4G0qcw"/>
+          <stereotypeNodes xmi:id="_yjlYxGreEeiCc8Vc4G0qcw" id="_yjkxsGreEeiCc8Vc4G0qcw" name="&lt;&lt;WebApi>>"/>
+          <operationCompartmentNode xmi:id="_yjlYxWreEeiCc8Vc4G0qcw">
+            <operations xmi:id="_FGLxQGrfEeiCc8Vc4G0qcw" owner="_FGIt8GrfEeiCc8Vc4G0qcw" name="Login(uid : Boolean, pwd : String) : LoginResult"/>
+            <operations xmi:id="_leuJYGrgEeiCc8Vc4G0qcw" owner="_letiUGrgEeiCc8Vc4G0qcw" name="AuthenticationToken(access_token : string, appid : string) : AuthenticationResult"/>
+          </operationCompartmentNode>
+          <attributeCompartmentNode xmi:id="_yjl_0GreEeiCc8Vc4G0qcw"/>
+          <nestedClassifierCompartmentNode xmi:id="_yjl_0WreEeiCc8Vc4G0qcw"/>
+          <templateParameterCompartmentNode xmi:id="_yjl_0mreEeiCc8Vc4G0qcw"/>
+        </nodes>
+        <nodes xmi:type="trufun:TClassNode" xmi:id="_PIT9gWrfEeiCc8Vc4G0qcw" owner="_PIT9gGrfEeiCc8Vc4G0qcw" name="LoginResult" location="517,50" size="132,71" autoResize="true">
+          <fillColor xmi:id="_PIT9gmrfEeiCc8Vc4G0qcw" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_PIT9g2rfEeiCc8Vc4G0qcw"/>
+          <fontColor xmi:id="_PIT9hGrfEeiCc8Vc4G0qcw"/>
+          <stereotypeNodes xmi:id="_PIT9hWrfEeiCc8Vc4G0qcw" id="_PIT9gGrfEeiCc8Vc4G0qcw"/>
+          <operationCompartmentNode xmi:id="_PIT9hmrfEeiCc8Vc4G0qcw"/>
+          <attributeCompartmentNode xmi:id="_PIT9h2rfEeiCc8Vc4G0qcw">
+            <attributes xmi:id="_SY8AwGrfEeiCc8Vc4G0qcw" owner="_SY7ZsGrfEeiCc8Vc4G0qcw" name="access_token : string"/>
+            <attributes xmi:id="_UoBHcWrfEeiCc8Vc4G0qcw" owner="_UoBHcGrfEeiCc8Vc4G0qcw" name="status : Int"/>
+          </attributeCompartmentNode>
+          <nestedClassifierCompartmentNode xmi:id="_PIT9iGrfEeiCc8Vc4G0qcw"/>
+          <templateParameterCompartmentNode xmi:id="_PIT9iWrfEeiCc8Vc4G0qcw"/>
+        </nodes>
+        <nodes xmi:type="trufun:TClassNode" xmi:id="_Hmxz0GrhEeiCc8Vc4G0qcw" owner="_HmvXkGrhEeiCc8Vc4G0qcw" name="AuthenticationResult" location="462,166" size="131,55" autoResize="true">
+          <fillColor xmi:id="_Hmxz0WrhEeiCc8Vc4G0qcw" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_Hmxz0mrhEeiCc8Vc4G0qcw"/>
+          <fontColor xmi:id="_Hmxz02rhEeiCc8Vc4G0qcw"/>
+          <stereotypeNodes xmi:id="_Hmya4GrhEeiCc8Vc4G0qcw" id="_HmvXkGrhEeiCc8Vc4G0qcw"/>
+          <operationCompartmentNode xmi:id="_Hmya4WrhEeiCc8Vc4G0qcw"/>
+          <attributeCompartmentNode xmi:id="_Hmya4mrhEeiCc8Vc4G0qcw">
+            <attributes xmi:id="_id9RoGrhEeiCc8Vc4G0qcw" owner="_id61YGrhEeiCc8Vc4G0qcw" name="status : int"/>
+          </attributeCompartmentNode>
+          <nestedClassifierCompartmentNode xmi:id="_Hmya42rhEeiCc8Vc4G0qcw"/>
+          <templateParameterCompartmentNode xmi:id="_Hmya5GrhEeiCc8Vc4G0qcw"/>
+        </nodes>
+        <leftRuler xmi:id="_w-qpYmreEeiCc8Vc4G0qcw" unit="2"/>
+        <topRuler xmi:id="_w-qpY2reEeiCc8Vc4G0qcw" horizontal="true" unit="2"/>
+      </contents>
+      <contents xmi:type="trufun:TSequenceDiagram" xmi:id="_vVQ34G0pEei-v-ttb1oaNQ" id="_vVPCsG0pEei-v-ttb1oaNQ" owner="_t7-UcGreEeiCc8Vc4G0qcw" name="Login" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TInteractionNode" xmi:id="_vVvZAG0pEei-v-ttb1oaNQ" owner="_vVjLwG0pEei-v-ttb1oaNQ" name="Interaction2" location="43,8" size="400,300" shadow="false">
+          <fillColor xmi:id="_vVwAEG0pEei-v-ttb1oaNQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_vVwAEW0pEei-v-ttb1oaNQ"/>
+          <fontColor xmi:id="_vVwAEm0pEei-v-ttb1oaNQ"/>
+          <nodes xmi:type="trufun:TLifelineNode_SD" xmi:id="__VjPMG0qEei-v-ttb1oaNQ" owner="__VioIG0qEei-v-ttb1oaNQ" name=":Authentication" location="70,0" size="84,160" autoResize="true">
+            <fillColor xmi:id="__VjPMW0qEei-v-ttb1oaNQ" r="255" g="255" b="255"/>
+            <lineColor xmi:id="__VjPMm0qEei-v-ttb1oaNQ"/>
+            <fontColor xmi:id="__VjPM20qEei-v-ttb1oaNQ"/>
+            <stereotypeNodes xmi:id="__VjPNG0qEei-v-ttb1oaNQ" id="__VioIG0qEei-v-ttb1oaNQ"/>
+            <nodes xmi:type="trufun:TInvocationSpecificationNode" xmi:id="_JWd6gG0rEei-v-ttb1oaNQ" owner="_JWbeQG0rEei-v-ttb1oaNQ" name="" location="36,20" size="7,49">
+              <nodes xmi:type="trufun:TEventOccurrenceNode" xmi:id="_JWiL8W0rEei-v-ttb1oaNQ" owner="_JWRGMG0rEei-v-ttb1oaNQ" name="" outgoingConnections="_JWWlwG0rEei-v-ttb1oaNQ" location="6,0" size="1,1"/>
+              <nodes xmi:type="trufun:TEventOccurrenceNode" xmi:id="_JWpgsG0rEei-v-ttb1oaNQ" owner="_JWXM0G0rEei-v-ttb1oaNQ" name="" location="6,48" size="1,1"/>
+            </nodes>
+            <nodes xmi:type="trufun:TInvocationSpecificationNode" xmi:id="_Mz98IG0rEei-v-ttb1oaNQ" owner="_Mz9VGG0rEei-v-ttb1oaNQ" name="" location="36,36" size="7,17">
+              <nodes xmi:type="trufun:TEventOccurrenceNode" xmi:id="_Mz-jMG0rEei-v-ttb1oaNQ" owner="_Mz8G8G0rEei-v-ttb1oaNQ" name="" outgoingConnections="_Mz8uAm0rEei-v-ttb1oaNQ" location="6,0" size="1,1"/>
+              <nodes xmi:type="trufun:TEventOccurrenceNode" xmi:id="_Mz_KQG0rEei-v-ttb1oaNQ" owner="_Mz8uB20rEei-v-ttb1oaNQ" name="" location="6,16" size="1,1"/>
+            </nodes>
+          </nodes>
+          <nodes xmi:type="trufun:TLifelineNode_SD" xmi:id="_03dVIG0pEei-v-ttb1oaNQ" owner="_03cHAG0pEei-v-ttb1oaNQ" name=":AuthService" location="213,0" size="65,160" autoResize="true">
+            <fillColor xmi:id="_03dVIW0pEei-v-ttb1oaNQ" r="255" g="255" b="255"/>
+            <lineColor xmi:id="_03dVIm0pEei-v-ttb1oaNQ"/>
+            <fontColor xmi:id="_03dVI20pEei-v-ttb1oaNQ"/>
+            <stereotypeNodes xmi:id="_03dVJG0pEei-v-ttb1oaNQ" id="_03cHAG0pEei-v-ttb1oaNQ"/>
+            <nodes xmi:type="trufun:TExecutionSpecificationNode" xmi:id="_JWiL8G0rEei-v-ttb1oaNQ" owner="_JWcFUG0rEei-v-ttb1oaNQ" name="" location="26,20" size="18,49">
+              <nodes xmi:type="trufun:TEventOccurrenceNode" xmi:id="_JWqHwG0rEei-v-ttb1oaNQ" owner="_JWRtQG0rEei-v-ttb1oaNQ" name="" incomingConnections="_JWWlwG0rEei-v-ttb1oaNQ" size="12,1"/>
+              <nodes xmi:type="trufun:TEventOccurrenceNode" xmi:id="_JWqHwW0rEei-v-ttb1oaNQ" owner="_JWWlxG0rEei-v-ttb1oaNQ" name="" location="0,48" size="12,1"/>
+              <nodes xmi:type="trufun:TExecutionSpecificationNode" xmi:id="_Mz98IW0rEei-v-ttb1oaNQ" owner="_Mz9VGW0rEei-v-ttb1oaNQ" name="" location="6,16" size="12,17">
+                <nodes xmi:type="trufun:TEventOccurrenceNode" xmi:id="_Mz_xUG0rEei-v-ttb1oaNQ" owner="_Mz8uAG0rEei-v-ttb1oaNQ" name="" incomingConnections="_Mz8uAm0rEei-v-ttb1oaNQ" size="12,1"/>
+                <nodes xmi:type="trufun:TEventOccurrenceNode" xmi:id="_Mz_xUW0rEei-v-ttb1oaNQ" owner="_Mz8uBm0rEei-v-ttb1oaNQ" name="" location="0,16" size="12,1"/>
+              </nodes>
+            </nodes>
+          </nodes>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_JXDwYG0rEei-v-ttb1oaNQ" name="*" location="214,65" size="9,15" parent="_JWWlwG0rEei-v-ttb1oaNQ" alias="Name" direction="13" offset="0,0">
+          <fontColor xmi:id="_JXDwYW0rEei-v-ttb1oaNQ"/>
+        </nodes>
+        <nodes xmi:type="trufun:SubLabel" xmi:id="_M0QQAG0rEei-v-ttb1oaNQ" name="sadf()" location="206,81" size="31,15" parent="_Mz8uAm0rEei-v-ttb1oaNQ" alias="Name" direction="13" offset="0,0">
+          <fontColor xmi:id="_M0QQAW0rEei-v-ttb1oaNQ"/>
+        </nodes>
+        <connections xmi:type="trufun:TMessageConnection_SD" xmi:id="_Mz8uAm0rEei-v-ttb1oaNQ" owner="_Mz8uAW0rEei-v-ttb1oaNQ" name="sadf()" subLabels="_M0QQAG0rEei-v-ttb1oaNQ" target="_Mz_xUG0rEei-v-ttb1oaNQ" source="_Mz-jMG0rEei-v-ttb1oaNQ">
+          <eAnnotations xmi:id="_Mz8uA20rEei-v-ttb1oaNQ" source="TaggedValues">
+            <details xmi:id="_Mz8uBG0rEei-v-ttb1oaNQ" key="type" value="Message_asynchSignal"/>
+          </eAnnotations>
+          <fillColor xmi:id="_Mz8uBW0rEei-v-ttb1oaNQ"/>
+        </connections>
+        <connections xmi:type="trufun:TMessageConnection_SD" xmi:id="_Mz9VFm0rEei-v-ttb1oaNQ" owner="_Mz9VEG0rEei-v-ttb1oaNQ" tag="_Mz8uBm0rEei-v-ttb1oaNQ,_Mz8uB20rEei-v-ttb1oaNQ" name="*" visible="false">
+          <fillColor xmi:id="_Mz9VF20rEei-v-ttb1oaNQ"/>
+        </connections>
+        <connections xmi:type="trufun:TMessageConnection_SD" xmi:id="_JWWlwG0rEei-v-ttb1oaNQ" owner="_JWUwkG0rEei-v-ttb1oaNQ" name="*" subLabels="_JXDwYG0rEei-v-ttb1oaNQ" target="_JWqHwG0rEei-v-ttb1oaNQ" source="_JWiL8W0rEei-v-ttb1oaNQ">
+          <eAnnotations xmi:id="_JWWlwW0rEei-v-ttb1oaNQ" source="TaggedValues">
+            <details xmi:id="_JWWlwm0rEei-v-ttb1oaNQ" key="type" value="Message_asynchSignal"/>
+          </eAnnotations>
+          <fillColor xmi:id="_JWWlw20rEei-v-ttb1oaNQ"/>
+        </connections>
+        <connections xmi:type="trufun:TMessageConnection_SD" xmi:id="_JWXM120rEei-v-ttb1oaNQ" owner="_JWXM0W0rEei-v-ttb1oaNQ" tag="_JWWlxG0rEei-v-ttb1oaNQ,_JWXM0G0rEei-v-ttb1oaNQ" name="*" visible="false">
+          <fillColor xmi:id="_JWXM2G0rEei-v-ttb1oaNQ"/>
+        </connections>
+        <leftRuler xmi:id="_vVQ34W0pEei-v-ttb1oaNQ" unit="2"/>
+        <topRuler xmi:id="_vVQ34m0pEei-v-ttb1oaNQ" horizontal="true" unit="2"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yjkxsGreEeiCc8Vc4G0qcw" name="AuthService">
+      <eAnnotations xmi:id="_CzwboGrfEeiCc8Vc4G0qcw" source="Stereotypes">
+        <details xmi:id="_CzxCsGrfEeiCc8Vc4G0qcw" key="Stereotypes" value="WebApi"/>
+      </eAnnotations>
+      <ownedOperation xmi:id="_FGIt8GrfEeiCc8Vc4G0qcw" name="Login" visibility="public">
+        <ownedParameter xmi:id="_aR-ZkGrfEeiCc8Vc4G0qcw" name="Parameter1" type="_PIT9gGrfEeiCc8Vc4G0qcw" direction="return"/>
+        <ownedParameter xmi:id="_SnrK4GrgEeiCc8Vc4G0qcw" name="uid" type="_SnSJUGrgEeiCc8Vc4G0qcw" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SnrK4WrgEeiCc8Vc4G0qcw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SnrK4mrgEeiCc8Vc4G0qcw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_SnrK42rgEeiCc8Vc4G0qcw" value=""/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Snrx8GrgEeiCc8Vc4G0qcw" name="pwd" type="_Vky5AGfPEeiD6bsrYqqrxw" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Snrx8WrgEeiCc8Vc4G0qcw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Snrx8mrgEeiCc8Vc4G0qcw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Snrx82rgEeiCc8Vc4G0qcw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_letiUGrgEeiCc8Vc4G0qcw" name="AuthenticationToken" visibility="public">
+        <ownedParameter xmi:id="_0hHxkGrgEeiCc8Vc4G0qcw" name="access_token" type="_VlZ9AGfPEeiD6bsrYqqrxw" direction="inout"/>
+        <ownedParameter xmi:id="_WdqIgGrhEeiCc8Vc4G0qcw" name="appid" type="_VlZ9AGfPEeiD6bsrYqqrxw" direction="inout"/>
+        <ownedParameter xmi:id="_pUZlAGrhEeiCc8Vc4G0qcw" name="Parameter1" type="_HmvXkGrhEeiCc8Vc4G0qcw" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PIT9gGrfEeiCc8Vc4G0qcw" name="LoginResult">
+      <ownedAttribute xmi:id="_SY7ZsGrfEeiCc8Vc4G0qcw" name="access_token" visibility="private" type="_VlZ9AGfPEeiD6bsrYqqrxw"/>
+      <ownedAttribute xmi:id="_UoBHcGrfEeiCc8Vc4G0qcw" name="status" visibility="private" type="_Vkv1sGfPEeiD6bsrYqqrxw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HmvXkGrhEeiCc8Vc4G0qcw" name="AuthenticationResult">
+      <ownedAttribute xmi:id="_id61YGrhEeiCc8Vc4G0qcw" name="status" visibility="private" type="_VlWSoGfPEeiD6bsrYqqrxw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_vVjLwG0pEei-v-ttb1oaNQ" name="Interaction2">
+      <eAnnotations xmi:id="_vVuK4G0pEei-v-ttb1oaNQ" source="TaggedValues">
+        <details xmi:id="_vVuK4W0pEei-v-ttb1oaNQ" key="IsNewInteraction" value="true"/>
+        <details xmi:id="_vVux8G0pEei-v-ttb1oaNQ" key="IsNewestInteraction" value="true"/>
+        <details xmi:id="_U7Mh8G0rEei-v-ttb1oaNQ" key="LINKS" value="_JWRGMG0rEei-v-ttb1oaNQ,_Mz8G8G0rEei-v-ttb1oaNQ,_Mz8uBm0rEei-v-ttb1oaNQ,_JWWlxG0rEei-v-ttb1oaNQ"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_03cuEG0pEei-v-ttb1oaNQ" type="_yjkxsGreEeiCc8Vc4G0qcw" direction="inout"/>
+      <ownedParameter xmi:id="__VioIW0qEei-v-ttb1oaNQ" type="_p3gZQG0qEei-v-ttb1oaNQ" direction="inout"/>
+      <lifeline xmi:id="_03cHAG0pEei-v-ttb1oaNQ" represents="_03cuEG0pEei-v-ttb1oaNQ" coveredBy="_JWcFUG0rEei-v-ttb1oaNQ _JWRtQG0rEei-v-ttb1oaNQ _Mz9VGW0rEei-v-ttb1oaNQ _Mz8uAG0rEei-v-ttb1oaNQ _Mz8uBm0rEei-v-ttb1oaNQ _JWWlxG0rEei-v-ttb1oaNQ _W6xSYW0-EeiYwq1fhrdIJQ"/>
+      <lifeline xmi:id="__VioIG0qEei-v-ttb1oaNQ" represents="__VioIW0qEei-v-ttb1oaNQ" coveredBy="_JWbeQG0rEei-v-ttb1oaNQ _JWRGMG0rEei-v-ttb1oaNQ _Mz9VGG0rEei-v-ttb1oaNQ _Mz8G8G0rEei-v-ttb1oaNQ _Mz8uB20rEei-v-ttb1oaNQ _JWXM0G0rEei-v-ttb1oaNQ _W6xSYG0-EeiYwq1fhrdIJQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JWRGMG0rEei-v-ttb1oaNQ" name="" covered="__VioIG0qEei-v-ttb1oaNQ" message="_JWUwkG0rEei-v-ttb1oaNQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JWRtQG0rEei-v-ttb1oaNQ" name="" covered="_03cHAG0pEei-v-ttb1oaNQ" message="_JWUwkG0rEei-v-ttb1oaNQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JWWlxG0rEei-v-ttb1oaNQ" name="" covered="_03cHAG0pEei-v-ttb1oaNQ" message="_JWXM0W0rEei-v-ttb1oaNQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JWXM0G0rEei-v-ttb1oaNQ" name="" covered="__VioIG0qEei-v-ttb1oaNQ" message="_JWXM0W0rEei-v-ttb1oaNQ"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_JWbeQG0rEei-v-ttb1oaNQ" name="" covered="__VioIG0qEei-v-ttb1oaNQ" finish="_JWXM0G0rEei-v-ttb1oaNQ" start="_JWRGMG0rEei-v-ttb1oaNQ"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_JWcFUG0rEei-v-ttb1oaNQ" name="" covered="_03cHAG0pEei-v-ttb1oaNQ" finish="_JWWlxG0rEei-v-ttb1oaNQ" start="_JWRtQG0rEei-v-ttb1oaNQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Mz8G8G0rEei-v-ttb1oaNQ" name="" covered="__VioIG0qEei-v-ttb1oaNQ" message="_Mz8uAW0rEei-v-ttb1oaNQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Mz8uAG0rEei-v-ttb1oaNQ" name="" covered="_03cHAG0pEei-v-ttb1oaNQ" message="_Mz8uAW0rEei-v-ttb1oaNQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Mz8uBm0rEei-v-ttb1oaNQ" name="" covered="_03cHAG0pEei-v-ttb1oaNQ" message="_Mz9VEG0rEei-v-ttb1oaNQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Mz8uB20rEei-v-ttb1oaNQ" name="" covered="__VioIG0qEei-v-ttb1oaNQ" message="_Mz9VEG0rEei-v-ttb1oaNQ"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_Mz9VGG0rEei-v-ttb1oaNQ" name="" covered="__VioIG0qEei-v-ttb1oaNQ" finish="_Mz8uB20rEei-v-ttb1oaNQ" start="_Mz8G8G0rEei-v-ttb1oaNQ"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_Mz9VGW0rEei-v-ttb1oaNQ" name="" covered="_03cHAG0pEei-v-ttb1oaNQ" finish="_Mz8uBm0rEei-v-ttb1oaNQ" start="_Mz8uAG0rEei-v-ttb1oaNQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_W6xSYG0-EeiYwq1fhrdIJQ" name="" covered="__VioIG0qEei-v-ttb1oaNQ" message="_W6x5cG0-EeiYwq1fhrdIJQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_W6xSYW0-EeiYwq1fhrdIJQ" name="" covered="_03cHAG0pEei-v-ttb1oaNQ" message="_W6x5cG0-EeiYwq1fhrdIJQ"/>
+      <message xmi:id="_JWUwkG0rEei-v-ttb1oaNQ" name="" messageSort="asynchSignal" receiveEvent="_JWRtQG0rEei-v-ttb1oaNQ" sendEvent="_JWRGMG0rEei-v-ttb1oaNQ">
+        <eAnnotations xmi:id="_JWXM1G0rEei-v-ttb1oaNQ" source="TaggedValues">
+          <details xmi:id="_JWXM1W0rEei-v-ttb1oaNQ" key="ReplyMessageId" value="_JWXM0W0rEei-v-ttb1oaNQ"/>
+          <details xmi:id="_fbybwG0_EeiYwq1fhrdIJQ" key="IsShowAlias.B" value="true"/>
+        </eAnnotations>
+      </message>
+      <message xmi:id="_JWXM0W0rEei-v-ttb1oaNQ" name="" messageSort="reply" receiveEvent="_JWXM0G0rEei-v-ttb1oaNQ" sendEvent="_JWWlxG0rEei-v-ttb1oaNQ">
+        <eAnnotations xmi:id="_JWXM0m0rEei-v-ttb1oaNQ" source="TaggedValues">
+          <details xmi:id="_JWXM020rEei-v-ttb1oaNQ" key="IsReturn" value="true"/>
+          <details xmi:id="_JWXM1m0rEei-v-ttb1oaNQ" key="MessageId" value="_JWUwkG0rEei-v-ttb1oaNQ"/>
+        </eAnnotations>
+      </message>
+      <message xmi:id="_Mz8uAW0rEei-v-ttb1oaNQ" name="" messageSort="asynchSignal" receiveEvent="_Mz8uAG0rEei-v-ttb1oaNQ" sendEvent="_Mz8G8G0rEei-v-ttb1oaNQ">
+        <eAnnotations xmi:id="_Mz9VE20rEei-v-ttb1oaNQ" source="TaggedValues">
+          <details xmi:id="_Mz9VFG0rEei-v-ttb1oaNQ" key="ReplyMessageId" value="_Mz9VEG0rEei-v-ttb1oaNQ"/>
+        </eAnnotations>
+        <argument xmi:type="uml:OpaqueExpression" xmi:id="_NVD3AG0rEei-v-ttb1oaNQ" name="MESSAGE_SIGNATURE">
+          <body>sadf</body>
+        </argument>
+      </message>
+      <message xmi:id="_Mz9VEG0rEei-v-ttb1oaNQ" name="" messageSort="reply" receiveEvent="_Mz8uB20rEei-v-ttb1oaNQ" sendEvent="_Mz8uBm0rEei-v-ttb1oaNQ">
+        <eAnnotations xmi:id="_Mz9VEW0rEei-v-ttb1oaNQ" source="TaggedValues">
+          <details xmi:id="_Mz9VEm0rEei-v-ttb1oaNQ" key="IsReturn" value="true"/>
+          <details xmi:id="_Mz9VFW0rEei-v-ttb1oaNQ" key="MessageId" value="_Mz8uAW0rEei-v-ttb1oaNQ"/>
+        </eAnnotations>
+      </message>
+      <message xmi:id="_W6x5cG0-EeiYwq1fhrdIJQ" name="" receiveEvent="_W6xSYW0-EeiYwq1fhrdIJQ" sendEvent="_W6xSYG0-EeiYwq1fhrdIJQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SnSJUGrgEeiCc8Vc4G0qcw" name="Boolean"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_lCXPQG0qEei-v-ttb1oaNQ" name="Client">
+    <eAnnotations xmi:id="_nnh6sG0qEei-v-ttb1oaNQ" source="Diagrams">
+      <contents xmi:type="trufun:TClassDiagram" xmi:id="_nnh6sW0qEei-v-ttb1oaNQ" id="_nngskG0qEei-v-ttb1oaNQ" owner="_lCXPQG0qEei-v-ttb1oaNQ" name="ClassDiagram1" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TClassNode" xmi:id="_p3hAUG0qEei-v-ttb1oaNQ" owner="_p3gZQG0qEei-v-ttb1oaNQ" name="Authentication" location="68,114" size="103,55" autoResize="true">
+          <fillColor xmi:id="_p3hAUW0qEei-v-ttb1oaNQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_p3hAUm0qEei-v-ttb1oaNQ"/>
+          <fontColor xmi:id="_p3hAU20qEei-v-ttb1oaNQ"/>
+          <stereotypeNodes xmi:id="_p3hAVG0qEei-v-ttb1oaNQ" id="_p3gZQG0qEei-v-ttb1oaNQ"/>
+          <operationCompartmentNode xmi:id="_p3hAVW0qEei-v-ttb1oaNQ">
+            <operations xmi:id="_8nl0IG0qEei-v-ttb1oaNQ" owner="_8nlNEG0qEei-v-ttb1oaNQ" name="Login()"/>
+          </operationCompartmentNode>
+          <attributeCompartmentNode xmi:id="_p3hAVm0qEei-v-ttb1oaNQ"/>
+          <nestedClassifierCompartmentNode xmi:id="_p3hAV20qEei-v-ttb1oaNQ"/>
+          <templateParameterCompartmentNode xmi:id="_p3hAWG0qEei-v-ttb1oaNQ"/>
+        </nodes>
+        <leftRuler xmi:id="_nnh6sm0qEei-v-ttb1oaNQ" unit="2"/>
+        <topRuler xmi:id="_nnh6s20qEei-v-ttb1oaNQ" horizontal="true" unit="2"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_p3gZQG0qEei-v-ttb1oaNQ" name="Authentication">
+      <ownedOperation xmi:id="_8nlNEG0qEei-v-ttb1oaNQ" name="Login" visibility="public"/>
+    </packagedElement>
   </packagedElement>
   <profileApplication xmi:id="_VjgfkGfPEeiD6bsrYqqrxw">
     <eAnnotations xmi:id="_VjresGfPEeiD6bsrYqqrxw" source="http://www.eclipse.org/uml2/2.0.0/UML">

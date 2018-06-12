@@ -1,4 +1,4 @@
-package cn.bgenius.pconnect.model;
+package cn.bgenius.pconnect.web.model;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

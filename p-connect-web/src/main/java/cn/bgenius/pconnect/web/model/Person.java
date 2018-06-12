@@ -1,4 +1,4 @@
-package cn.bgenius.pconnect.model;
+package cn.bgenius.pconnect.web.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

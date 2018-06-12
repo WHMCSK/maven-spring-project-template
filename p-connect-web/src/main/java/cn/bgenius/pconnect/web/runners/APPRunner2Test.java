@@ -1,4 +1,4 @@
-package cn.bgenius.pconnect.runners;
+package cn.bgenius.pconnect.web.runners;
 
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -11,12 +11,12 @@ import org.springframework.stereotype.Component;
 ///CommandLineRunner例子大体的思路是：编写一个class，然后实现CommandLineRunner接口，最后添加@Component注解
 ///ApplicationRunner例子大体的思路是：编写一个class，然后实现ApplicationRunner接口，最后添加@Component注解
 @Component
-@Order(1)
-public class APPRunner1Test implements ApplicationRunner {
+@Order(2)
+public class APPRunner2Test implements ApplicationRunner {
 
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
-		System.out.println("<<<<<<<<<<<<这个是测试ApplicationRunner1接口>>>>>>>>>>>>>>");
+		System.out.println("<<<<<<<<<<<<这个是测试ApplicationRunner2接口>>>>>>>>>>>>>>");
 	}
 	
 }

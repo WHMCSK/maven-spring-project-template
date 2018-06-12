@@ -1,4 +1,4 @@
-package cn.bgenius.pconnect;
+package cn.bgenius.pconnect.web;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,8 +19,10 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import cn.bgenius.pconnect.model.*;
-import cn.bgenius.pconnect.mq.RbtmqReceiver;
+import cn.bgenius.pconnect.web.model.*;
+import cn.bgenius.pconnect.web.model.Customer;
+import cn.bgenius.pconnect.web.model.CustomerRepository;
+import cn.bgenius.pconnect.web.mq.RbtmqReceiver;
 
 
 @SpringBootApplication
@@ -74,6 +76,8 @@ public class Application extends SpringBootServletInitializer {
 	}
 
 	public static void main(String[] args) {
+		
+		System.out.println("");
 		SpringApplication.run(Application.class, args);
 	}
 

@@ -1,4 +1,4 @@
-package cn.bgenius.pconnect.controller;
+package cn.bgenius.pconnect.web.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,8 @@ import com.orientechnologies.orient.core.id.ORID;
 import com.orientechnologies.orient.core.id.ORecordId;
 import com.orientechnologies.orient.core.record.OVertex;
 import com.orientechnologies.orient.core.record.impl.ODocument;
-import cn.bgenius.pconnect.dto.Todo;
+
+import cn.bgenius.pconnect.web.dto.Todo;
 
 @Controller
 @RequestMapping(path="/todo")

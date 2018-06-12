@@ -1,4 +1,4 @@
-package cn.bgenius.pconnect.mq;
+package cn.bgenius.pconnect.web.mq;
 
 import java.util.concurrent.CountDownLatch;
 
